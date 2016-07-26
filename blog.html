@@ -1,0 +1,74 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<!-- Slovenska imena mesecev. -->
+{% assign meseci = "januar|februar|marec|april|maj|junij|julij|avgust|september|oktober|november|december" | split: "|" %}
+
+<section id="projects">
+<!-- Page Content -->
+{% for post in site.posts %}
+    {% assign m = post.date | date: "%-m" | minus: 1 %}
+    {% assign dan = post.date | date: "%d" %}
+    {% assign mesec = meseci[m] %}
+    {% assign leto = post.date | date: "%Y" %}
+
+    {% if post.objavi == 'Da' %}
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% if thecycle == 'odd' %}
+            <div class="content-section-a">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="category-heading">{{ dan }}. {{ mesec }} {{ leto }}</h2>
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-6">
+                            <h2 class="section-heading">{{ post.title | capitalize }}</h2>
+                            <div class="lead">{{ post.content }}</div>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                            <div class="image-wrapper" >
+                                <img class="img-responsive center-block" src="{{site.baseurl}}/img/blog_img/{{ post.slika }}" alt="">
+                                {% if post.opis_slike != null %}
+                                    <i>Slika: {{ post.opis_slike }}</i>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.content-section-a -->
+        {% else %}
+            <div class="content-section-b">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="category-heading">{{ dan }}. {{ mesec }} {{ leto }}</h2>
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                            <h2 class="section-heading">{{ post.title | capitalize }}</h2>
+                            <div class="lead">{{ post.content }}</div>
+                        </div>
+                            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                                <div class="image-wrapper" >
+                                    <img class="img-responsive center-block" src="{{site.baseurl}}/img/blog_img/{{ post.slika }}" alt="">
+                                    {% if post.opis_slike != null %}
+                                        <i>Slika: {{ post.opis_slike }}</i>
+                                    {% endif %}
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.content-section-b -->
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</section>
