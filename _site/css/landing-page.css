@@ -7,8 +7,8 @@
 /*
     Slika se lahko zmanjsa, vendar nikoli poveca vec kot svojih 100%.
 */
- img {
-    max-width: 100%;
+ #about img {
+    max-width: 70%;
     height: auto;
 }
 
