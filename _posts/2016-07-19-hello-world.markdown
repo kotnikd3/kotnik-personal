@@ -1,7 +1,7 @@
 ---
 objavi: Da
 opis: 
-slika: prince.jpg
+slika: prince.png
 opis_slike:
 ---
 Slabo leto nazaj sem se odločil, da bom prenehal uporabljati nekatera socialna omrežja. Na vprašanje <i>"zakaj"</i> si še danes ne znam enostavno odgovoriti. Če ob pisanju tega samo na hitro pomislim: prepogosto sem jih uporabljal. Včasih skoraj vsak dan, vsako uro. Preveč sem se ukvarjal z drugimi ljudmi in pozabil nase. Spomnim se občutkov, da so se mi vsi zdeli popolnoma srečni, zaradi česar sem se včasih počutil zapostavljenega ali neživega. Doživetja sem hotel deliti s celim svetom in biti tako slišan in sprejet s strani celega sveta.

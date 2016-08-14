@@ -1,7 +1,7 @@
 ---
 objavi: Da
 opis: 
-slika: dream.jpg
+slika: dream.png
 opis_slike:
 ---
 Danes mi je dogajalo ob razmišljanju o treh od štirih sanj:
@@ -10,6 +10,6 @@ Prve: nekemu tovornjakarju snamem gumo, tako da mu med vožnjo odpade. Jezen pri
 
 Druge: sledim sošolcem. Ko ogotovimo, da ne najdemo, kar iščemo, vsi začnejo slediti meni. Vmes se pojavi tudi neka punca, ki se mi ves čas smeji. Ko sem sledil drugim, sem imel občutek nejasnosti in zmedenosti, ko sem vodil jaz, pa radovednosti in sigurnosti.
 
-Tretje: ko sem se trudil razvozlati nek italjanski napis, mi ga je nej starec prevedel v slovenščino. Imel je špičaste, grde zobe in zloben izraz na obrazu, vendar sem bil vesel njegovih napotkov.
+Tretje: ko sem se trudil razvozlati nek italjanski napis, mi ga je nek starec prevedel v slovenščino. Imel je špičaste, grde zobe in zloben izraz na obrazu, vendar sem bil vesel njegovih napotkov.
 
-V sanjah vidim ogromno simbolov. Ko sem jih povezoval z občutki iz realnega življenja, sem se zavedal nekakšnega strahu pred uspehom (strah pred višino, stolp): konec študentskega življenja, nova služba, novo stanovanje, popolna neodvisnost, denar ... Poleg strahu sem začutil tudi željo po samostojnosti, neodvisnosti od drugih oz. svoji poti.
+V sanjah vidim ogromno simbolov. Ko sem jih povezoval z občutki iz realnega življenja, sem se zavedal nekakšnega strahu pred uspehom (strah pred višino, stolp): konec študentskega življenja, nova služba, novo stanovanje, popolna neodvisnost, denar ... Poleg strahu pred neodvisnostjo od drugih oz. svojo potjo sem začutil tudi željo po tem.
