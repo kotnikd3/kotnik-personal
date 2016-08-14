@@ -1,7 +1,7 @@
 ---
 objavi: Da
 opis: 
-slika: rab.jpg
+slika: jaz.jpg
 opis_slike: Rab z zvonika.
 ---
 Prejšnji teden sem v družbi 8-ih prijateljev in prijateljic preživel na Rabu. Obiskali smo eno najlepših peščenih plaž na Jadranu, raziskovali po starih mestnih jedrih ... in pač vse ostalo kar spada v običajen dopust. No razen tega, da sem se vsak dan nekaj ur učil o krivuljnih in ploskovnih integralih :).
