@@ -21,7 +21,9 @@ description: Dobrodošli na moji osebni spletni strani.
     						<ul class="list-inline intro-social-buttons">
     							{% for social in site.social %}
     							<li>
-    								<a href="{{ social.url }}" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-{{ social.icon }}"></i> &nbsp <span class="network-name">{{ social.title }}</span></a>
+    								<a href="{{ social.url }}"
+    									<i class="fa fa-{{ social.icon }} fa-3x" style="color:#e7e7e7"></i>
+    								</a>
     							</li>
     							{% endfor %}
     						</ul>
