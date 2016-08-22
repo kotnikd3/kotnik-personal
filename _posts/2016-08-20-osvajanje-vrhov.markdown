@@ -8,7 +8,10 @@ opis_slike: Pogled s koče na Krimu (1107m).
 
 S prijatelji smo odšli na Krim. Po ogledu Ledene jame in požrtije na vrhu smo si na nekem travniku naredili piknik, kjer smo peli (slučajno so vsi glasbeniki) in se pogovarjali o vsemogočih ne-športnih in ne-vremenskih temah. Z enim od prijateljev sva zaradi <i>neke-najine-simbolike</i> tekmovala, kdo spleza višje na neko drevo. Visoko na veji me je postalo res strah, vendar sem zaradi tekmovalnosti šel preko sebe in šel še višje, tako da sem na koncu v tej neumni igri premagal doktorja znanosti. Pri sebi sem začutil nevoščljivost - nisem mu privoščil občutka zmage v tej igri, kar sem mu tudi povedal.
 
-Zvečer me je zaradi budilke in dehidracije močno bolela glava, vendar sem vseeno odšel na gasilsko veselico, da bi prvič ogovoril neko dekle, ki mi je všeč. Ko sem jo v gneči iskal, me je poklical prijatelj in me prosil, če pridem z avtom iskat njega in njegovo družbo. Z veseljem do prijateljeve družbe sem zapustil veselico in krenil na pot.
+Zvečer me je zaradi budilke in dehidracije res že močno bolela glava, vendar sem vseeno odšel na gasilsko veselico, da bi prvič ogovoril neko dekle, ki mi je všeč. Ko sem jo v gneči iskal, me je poklical prijatelj in me prosil, če pridem z avtom iskat njega in njegovo družbo. Z veseljem do prijateljeve družbe sem zapustil veselico in krenil na pot.
 Na poti nazaj smo se ustavljali v gostilnah, domovih ... Občutil sem jezo in žalost, ker sem sam hotel nazaj na veselico, ostali pa še ne - nisem vztrajal pri sebi oz. vedno sem se pustil pregovoriti. S strahom pred tem, da mi bo nekdo zameril, če se razjezim ali nasprotujem, se soočam že vse življenje.
 
-Konca veselice nismo zamudili. Dekle sem opazil za mizo s svojo žensko družbo, vendar si nisem upal pristopiti do nje, kmalu za tem pa je tudi odšlo. Ko je odhajala, me je pogledala in se mi nasmejala. Sedaj razmišljam o tem, da bi si ustvaril nek račun na kakšnem od socialnih omrežij, jo tam poiskal in jo kontaktiral.
+Konca veselice nismo zamudili. Dekle sem opazil za mizo z njeno žensko družbo, vendar si nisem upal pristopiti do nje, kmalu za tem pa je tudi odšlo. Ko je odhajala, me je pogledala in se mi nasmejala. Sedaj razmišljam o tem, da bi si ustvaril nek račun na kakšnem od socialnih omrežij, jo tam poiskal in jo kontaktiral.
+
+Zanimivo predavanje:
+https://www.ted.com/talks/brene_brown_on_vulnerability?language=en#t-62100
