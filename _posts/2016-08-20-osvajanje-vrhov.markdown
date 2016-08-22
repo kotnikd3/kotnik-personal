@@ -13,5 +13,4 @@ Na poti nazaj smo se ustavljali v gostilnah, domovih ... Občutil sem jezo in ž
 
 Konca veselice nismo zamudili. Dekle sem opazil za mizo z njeno žensko družbo, vendar si nisem upal pristopiti do nje, kmalu za tem pa je tudi odšlo. Ko je odhajala, me je pogledala in se mi nasmejala. Sedaj razmišljam o tem, da bi si ustvaril nek račun na kakšnem od socialnih omrežij, jo tam poiskal in jo kontaktiral.
 
-Zanimivo predavanje:
-https://www.ted.com/talks/brene_brown_on_vulnerability?language=en#t-62100
+<a href="https://www.ted.com/talks/brene_brown_on_vulnerability?language=en#t-62100"><font color="#217C7E">Tole</font></a> mi je pa eno zanimivo predavanje.
