@@ -1,7 +1,7 @@
 ---
 objavi: Da
 opis: 
-slika: morje.jpg
+slika: morje1.jpg
 opis_slike: Plaža v kampu Sol Stella Maris.
 ---
 Pretekli teden sem ogromno časa preživel za računalnikom v službi. Imel sem pogovor glede financ, kateri me je presenetil in vznemiril. Več o teh občutkih si tu ne upam pisati ... 

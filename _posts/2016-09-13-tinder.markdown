@@ -1,7 +1,7 @@
 ---
 objavi: Da
 opis: 
-slika: hanna.jpg
+slika: hanna1.jpg
 opis_slike: Jaz in Hanna na Šmarni gori.
 ---
 Včeraj sem v službi imel pogovor z nadrejenimi, kjer sem imel priložnost povedati tudi o svoji viziji in željah o prihodnosti. Izvedel sem, da podjetje s tekočimi projekti trenutno nima potrebe po novi redni zaposlitvi. Omenjen je bil tudi moj študij na doktorksem študiju oziroma nek razpis, ki bi pomagal pri financiranju študija ali zaposlitvi. Preostanek dneva sem bil bolj slabe volje, čutil sem žalost in jezo. Spraševal sem se, ali se mi še vedno splača programirati <i>lepo</i> in tako samo morda delati uslugo tistemu, ki bo mojo kodo prevzel. Do večera so se tej občutki zamenjali za hvaležnost podjetju in veselje, da sem vse to imel možnost izkusiti, pridobiti dragocene izkušnje ...
