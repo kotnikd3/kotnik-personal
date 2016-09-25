@@ -2,9 +2,9 @@
 objavi: Da
 opis: 
 slika: poroka.jpg
-opis_slike: Benjamin in Anja.
+opis_slike: Utrinek s poroke.
 ---
-Udeležil sem se poroke prijatelja, s katerim sva še pred parimi leti bila v odnosu kot in rit in srajca. V spominu mi bo ostal obraz prijatelja ter nekaj posebnih trenutkov okoli <i>usodnega da</i> in ogromno simbolike. Počutil sem se super, a sem vseeno naletel na precej trenutkov, v katerih si nisem upal biti jaz. Razmišljal sem tudi o tem, ali si sam želim podobne poroke. Zanimiv se mi je zdel občutek, da celoten dogodek ne vodita ženin in nevesta, ampak ansambel, fotograf, družba ...
+Udeležil sem se poroke prijatelja, s katerim sva še pred nekaj leti bila v odnosu kot in rit in srajca. V spominu mi bo ostalo obraz prijatelja ter nekaj posebnih trenutkov okoli <i>usodnega da</i> in ogromno simbolike. Počutil sem se super, a sem vseeno naletel na precej trenutkov, v katerih si nisem upal biti jaz. Razmišljal sem tudi o tem, ali si sam želim podobne poroke. Zanimiv se mi je zdel občutek, da celoten dogodek ne vodita ženin in nevesta, ampak ansambel, fotograf, družba ...
 
 Po skoraj 1 letu sem tekom tedna srečal in se pogovarjal s prijateljico. V tisti uri pogovora o najinih težavah, sem dobil občutek, da sem jo spoznal bolje, kot prej v več letih.
 
