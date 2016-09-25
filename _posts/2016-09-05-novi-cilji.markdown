@@ -6,7 +6,7 @@ opis_slike: Zvezki z rešenimi računskimi primeri in zapiski.
 ---
 Opis predmeta na Učilnici: <i>vektorski prostori in podprostori, linearne preslikave, diagonalizacija, geometrija linearnih preslikav, skalarni produkt, ortogonalnost, neskončne vrste, funkcije dveh in več spremenljivk (zveznost, odvajanje, lokalni ekstremi, vezani ekstremi, optimizacijski problemi, večkratni in krivuljni integrali), vektorska analiza.</i>
 
-Danes v službi sem izvedel, da sem opravil matematiko. In to z največ točkami med vsemi, haha, 60%. Veselje je bilo intenzivno a kratkotrajno. Sem pričakoval, da bom dlje vesel.
+Danes v službi sem izvedel, da sem opravil matematiko. In to z največ točkami med vsemi, haha, 60%. Veselje je bilo intenzivno a kratkotrajno.
 
 Prijatelj mi pravi, da nekaj časa živi brez ciljev in da se zato počuti bolje. Sedaj razmišljam o svojih ciljih, sprašujem se, kateri so moji naslednji in ali mi bodo prinesli stres ali srečo. Kateri so tisti, ki nastanejo iz nekih želja in ali to zame sploh so cilji. Vem, da jih ta trenutek nimam in da se počutim super.
 
