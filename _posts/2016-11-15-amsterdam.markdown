@@ -6,7 +6,7 @@ opis_slike: Jaz in Tanya v Amsterdamu (in pa nek naključnež :)).
 ---
 Zadnje čase mi ni bilo preveč do razmišljanja o sebi, sploh pa ne do pisanja in objavljanja tu. Sem pa pomislil, da bi moral razmišljati o tem, ali si sploh želim pisati, kaj imam od tega in koliko časa mi to vzame. En moment sem hotel ta blog pobrisati. In teh momentov je čedalje več.
 
-Tri tedne nazaj sem bil v Amsterdamu. Na pot sem šel sam, brez kakršnih pričakovanj. Spoznati sem želel prijateljico Tanyo, zanimale pa so me tudi informacije s prve roke o okvirnih plačah in cenah stanovanj.
+Tri tedne nazaj sem bil v Amsterdamu. Spoznati sem želel prijateljico Tanyo, zanimale pa so me tudi informacije s prve roke o okvirnih plačah in cenah stanovanj.
 Spomnim se, da me je bilo na poti tja tudi strah, da bi se izgubil ali da od celotnega potovanja ne bi odnesel toliko, da bi upravičilo svojo denarno ceno. Vendar ga je. S Tanyo sva se 2 dni pogovarjala in raziskovala, zaradi česar bom spomine in občutke iz Amsterdama vedno povezoval z njo. Spomnim se trenutka, ko je bila zame preveč ukazovalna, vendar sem vztrajal pri sebi. Dobil sem občutek, da jo je to za moment vrglo iz tira, vendar je to sprejela.
 
 Največ kar sem odnesel od potovanja je spoznanje, da me je sprememb strah, vendar po njih hrepenim.
