@@ -1,8 +1,13 @@
+{% assign meseci = "januar|februar|marec|april|maj|junij|julij|avgust|september|oktober|november|december" | split: "|" %}
+{% assign m = 'now' | date: "%-m" | minus: 1 %}
+{% assign dan = 'now' | date: "%d" %}
+{% assign mesec = meseci[m] %}
+{% assign leto = 'now' | date: "%Y" %}
 <!-- Footer -->
 <footer>
     <div class="container">
         <div align="center" class="row">
-            <p class="copyright text-muted small">Avtor spletne strani: Denis Kotnik <i class="fa fa-heartbeat"/></i> 2016</p>
+            <p class="copyright text-muted small">Avtor: Denis Kotnik <i class="fa fa-heartbeat"/></i> {{ dan }}. {{ mesec }} {{ leto }}</p>
         </div>
     </div>
 </footer>
