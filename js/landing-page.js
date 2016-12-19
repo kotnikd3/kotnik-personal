@@ -157,4 +157,4 @@ var nakljucnaBarva = ozadjaBarve[nakljucnoOzadje];
 $('#particles-js').css({'background-image': 'url(../img/' + nakljucnoOzadje + ')'});
 $('ul.intro-social-buttons li a').css({'color': nakljucnaBarva});
 $('.intro-message').css({'color': nakljucnaBarva});
-$('.intro-divider').css({'border-top': '1px solid ' + nakljucnaBarva});
+$('.intro-divider').css({'border-top': '2px solid ' + nakljucnaBarva});
