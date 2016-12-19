@@ -144,3 +144,17 @@ particlesJS('particles-js',
 });
 
 $("#particles-header").insertAfter(".particles-js-canvas-el");
+
+// Za zamenjavo ozadja z nakljucno sliko in njej pripadajoco barvo. 266A2E 003366 0054a8 cc0000
+var ozadjaBarve = {
+  'ozadje_01.jpg' : '#f8f8f8',
+  'ozadje_02.jpg': '#ff3333'
+}
+var ozadja = Object.keys(ozadjaBarve); // Pridobimo seznam kljucev.
+var nakljucnoOzadje = ozadja[Math.floor(Math.random() * ozadja.length)];
+var nakljucnaBarva = ozadjaBarve[nakljucnoOzadje];
+
+$('#particles-js').css({'background-image': 'url(../img/' + nakljucnoOzadje + ')'});
+$('ul.intro-social-buttons li a').css({'color': nakljucnaBarva});
+$('.intro-message').css({'color': nakljucnaBarva});
+$('.intro-divider').css({'border-top': '1px solid ' + nakljucnaBarva});
