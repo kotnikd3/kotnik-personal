@@ -12,7 +12,7 @@ import sys, os
 def add_watermark(input_image, text, opacity = 110, angle = 45, size = 70, margin = 200):
     '''
     Puts watermarks on picture and saves it.
-    @param in_file Input picture.
+    @param in_file Input picture. Optimal size is 2480 × 3508 / 300 dpi. TO DO: size = img.size[0] / 35
     @param text Watermark text.
     '''
     n_font = ImageFont.truetype("/Library/Fonts/Arial.ttf", size) # Create font.
