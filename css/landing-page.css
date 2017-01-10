@@ -5,10 +5,10 @@
  */
 
 /*
-    Slika se lahko zmanjsa, vendar nikoli poveca vec kot svojih 100%.
+    Slika se lahko zmanjsa, vendar nikoli poveca vec kot svojih max-width %.
 */
- #about img {
-    max-width: 70%;
+.img-max {
+    max-width: 80%;
     height: auto;
 }
 
