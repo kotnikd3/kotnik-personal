@@ -1,2 +1,2 @@
-# www.kotnikd.com
+# www.kotnik.si
 My web page repository.
