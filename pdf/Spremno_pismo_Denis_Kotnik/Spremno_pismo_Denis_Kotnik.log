@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.18)  22 JAN 2017 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.18)  27 JAN 2017 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,7 +716,7 @@ ged.
 Here is how much of TeX's memory you used:
  20362 strings out of 493014
  335312 string characters out of 6133351
- 420882 words of memory out of 5000000
+ 420880 words of memory out of 5000000
  23695 multiletter control sequences out of 15000+600000
  45198 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -726,7 +726,7 @@ texlive/2016/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/marvosym/marvosym.pfb>
-Output written on Spremno_pismo_Denis_Kotnik.pdf (1 page, 87438 bytes).
+Output written on Spremno_pismo_Denis_Kotnik.pdf (1 page, 87440 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
