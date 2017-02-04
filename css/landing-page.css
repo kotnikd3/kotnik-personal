@@ -117,7 +117,6 @@ ul.intro-social-buttons li a {
 /* Za besedilo pod ikonami. */
 .social-text {
     visibility: hidden;
-    
 }
 /*
     Ce gres z misko cez ikono, potem se (bratu) .social-text spremeni lastnost.
