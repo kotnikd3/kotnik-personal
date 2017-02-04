@@ -30,12 +30,16 @@ social:
   - icon: envelope-o
     title: email
     url: mailto:denis.kotnik@gmail.com
+    text: E-pošta
   - icon: address-card-o
     title: cv
     url: /pdf/CV_Denis_Kotnik.pdf
+    text: Življenjepis
   - icon: github
     title: github
     url: https://github.com/kotnikd3
+    text: Github
   - icon: facebook-square
     title: facebook
     url: https://www.facebook.com/kotnikd3
+    text: Facebook

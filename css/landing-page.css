@@ -109,9 +109,21 @@ h2 {
     pointer-events: all;
 }
 
-/* Za ikone */
+/* Za ikone. */
 ul.intro-social-buttons li a {
     color:#f8f8f8;
+}
+
+/* Za besedilo pod ikonami. */
+.social-text {
+    visibility: hidden;
+}
+/*
+    Ce gres z misko cez ikono, potem se (bratu) .social-text spremeni lastnost.
+    http://stackoverflow.com/questions/4502633/how-to-affect-other-elements-when-a-div-is-hovered
+*/
+.fa:hover + .social-text {
+    visibility: visible;
 }
 
 .network-name {
