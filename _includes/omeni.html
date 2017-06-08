@@ -1,0 +1,82 @@
+<!-- (razlika v sekundah med sedaj in 'epoch' datumom) - (razlika v sekundah med mojim rojstnim dnem in 'epoch') -->
+{% assign starost =  'now' | date: '%s' | plus: -671500800 | divided_by: 3600 | divided_by: 24 | divided_by: 365 %}
+<div class="content-section-prva">
+  <!-- About Section -->
+  <section id="about" class="container content-section text-center">
+      <div id="about_change" class="row">
+          <br/><br/>
+          <h2>Na kratko o meni</h2>
+          <hr class="intro-divider">
+      </div>
+  </section>
+  <section id="projects" style="padding-top: 50px">
+    <!-- Main Content -->
+    <div class="container">
+      <!-- VRSTICA -->
+      <div class="row omeni">
+        <div class="col-lg-5 col-sm-6">
+          <div class="lead">
+            <p>
+              Moje ime je Denis Kotnik.
+            </p>
+            <p>
+              Rojen sem 13. aprila 1991 v Novem mestu, tako da sem danes star {{ starost }} let. Živim v Ljubljani in na <a href="https://www.google.si/maps/place/Cerkev+Sv.+Peter/@45.9007186,15.0654649,15.55z/data=!4m13!1m7!3m6!1s0x4765037742d5288f:0xf9517bb5094db737!2sJezero,+8210+Trebnje!3b1!8m2!3d45.8925091!4d15.0648729!3m4!1s0x0:0x1f4b7d0444650dc7!8m2!3d45.9006952!4d15.0652573?hl=en">Jezeru</a> v bližini Trebnjega.
+            </p>
+            <p>
+              Svoje otroštvo sem živel na Mirni, kjer sem poleg osnovne šole obiskoval še osnovno glasbeno šolo Trebnje.
+            </p>
+            <p>
+              Že takrat me je pričelo zanimati računalništvo in tehnologije, zato sem svojo strokovno pot pričel na <a href="http://www.sc-nm.si/">Šolskem centru Novo mestu</a> po programu <i>elektrotehnik računalništva</i>. Danes me do strokovnega naziva <i>magister inženir računalništva in informatike</i> loči še dokončanje in zagovor magistrske naloge na <a href="http://www.fri.uni-lj.si/">Fakulteti za računalništvo in informatiko</a> v Ljubljani.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+          <div class="image-wrapper" >
+              <img class="img-thumbnail img-responsive center-block" src="{{site.baseurl}}/img/jaz.jpg" alt="">
+              <i>Slika: Jaz (slikano 2017).</i>
+          </div>
+        </div>
+      </div>
+      <!-- VRSTICA -->
+      <div class="row omeni">
+        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+          <div class="lead">
+          <p>
+            Sem ter tja napišem kakšno poezijo, sicer pa me vse bolj zanimata filozofija in psihoanaliza, zato rad prebiram tudi kakšno od tovrstnih knjig. Na to temo so mi še posebej všeč predavanja <a href="https://www.youtube.com/results?search_query=du%C5%A1an+rutar">ddr. Dušana Rutarja</a>.
+          </p>
+          <p>
+            Precej mi pomeni tudi glasba. V srednji šoli sem pričel igrati in ustvarjati na kitaro, zadnja leta pa veselje iščem še v petju. Od leta 2015 sem član prijetne skupine znane kot mešani pevski zbor <a href="http://www.glasbenamatica.si/">Glasbena Matica Ljubljana</a>.
+          </p>
+          <p>
+            Uživam tudi v gorništvu, teku, badmintonu, odbojki in smučanju. Filmi so me že v otroštvu navdušili nad borilnimi veščinami, zaradi česar sem se ukvarjal s tajskim boksom, od oktobra 2016 pa <i>kung fu</i> iščem v veščini <a href="http://www.wingchun.si/">Wing Chun</a>.
+          </p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+          <div class="image-wrapper" >
+              <img class="img-thumbnail img-responsive center-block" src="{{site.baseurl}}/img/mepz.jpg" alt="">
+              <i>Slika: Koncert Matice v Slovenski filharmoniji maja 2016.</i>
+          </div>
+        </div>
+      </div>
+      <!-- VRSTICA -->
+      <div class="row omeni">
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+          <div class="image-wrapper" >
+              <img class="img-thumbnail img-responsive center-block" src="{{site.baseurl}}/img/triglav.jpg" alt="">
+              <i>Slika: Na vrhu Triglava poleti 2013.</i>
+          </div>
+        </div>
+      </div>
+      <!-- VRSTICA -->
+      <div class="row omeni">
+        <div class="col-lg-5 col-sm-6">
+          <div class="image-wrapper" >
+              <img class="img-thumbnail img-responsive center-block" src="{{site.baseurl}}/img/wing_chun.jpg" alt="">
+              <i>Slika: Trening s sifujem Frankom Häberlinom (slikano 2017).</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

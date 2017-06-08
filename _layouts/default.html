@@ -2,7 +2,9 @@
 <html>
 	{% include head.html %}
 	<body>
-		{% include nav_bar.html %}
+		{% comment %}
+			{% include nav_bar.html %}
+		{% endcomment %}
 		{{content}}
 		{% include footer.html %}
 		{% include js.html %}
