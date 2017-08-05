@@ -1,3 +1,24 @@
+/* Za navigacijski menu. Overridam nastavitve iz bootstrap.min.css. */
+/* Ko grem z misko cez element. */
+.navbar-default .navbar-nav > li > a:focus {
+  color: #777;
+}
+/* Ko kliknem na element. */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #5E9DC8;
+}
+
+/* Element "li" je "Active" takrat, ko prikazujemo ustrezen section. */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > img,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #5E9DC8;
+  background-color: inherit;
+  /*background-color: #e7e7e7;*/
+}
+/* \navigacijski meni */
+
 /*
     Slika se lahko zmanjsa, vendar nikoli poveca vec kot svojih max-width %.
 */
