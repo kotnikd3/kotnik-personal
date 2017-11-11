@@ -27,13 +27,13 @@
       .besedilo {
         visibility: hidden;
       }
-      a {
+      .social-icons a {
         padding-right: 10px;
       }
       /* If width > 768px */
       @media(min-width:768px) {
-        a {
-          padding-right: 50px;
+        .social-icons a {
+          padding-right: 40px;
         }
       }
     </style>
@@ -44,7 +44,7 @@
       <p>Dobrodošli na moji osebni spletni strani</p>
       <br>
 
-      <ul class="list-inline">
+      <ul class="list-inline social-icons">
         <li>
           <a id="denis.kotnik@gmail.com" href="mailto:denis.kotnik@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
         </li>
@@ -139,7 +139,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
-          $('a').hover(function(){
+          $('.social-icons a').hover(function(){
               //console.log($(this).attr("id"));
               $('.besedilo').text($(this).attr("id"));
               $('.besedilo').attr("style", "visibility: visible;");
