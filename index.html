@@ -14,25 +14,53 @@
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <style>
-          body {
-            font-family: 'Indie Flower', cursive;
-            font-size: 20px;
-          }
-      .image-wrapper {
-          text-align: center;
+      body {
+        font-family: 'Indie Flower', cursive;
+        font-size: 20px;
       }
-        </style>
+      p.copyright {
+          padding: 10px 0;
+      }
+      .image-wrapper {
+        text-align: center;
+      }
+      .besedilo {
+        visibility: hidden;
+      }
+      a {
+        padding-right: 10px;
+      }
+      /* If width > 768px */
+      @media(min-width:768px) {
+        a {
+          padding-right: 50px;
+        }
+      }
+    </style>
   </head>
   <body>
     <div style="background:transparent !important" class="jumbotron text-center">
       <h1>Denis Kotnik</h1>
       <p>Dobrodošli na moji osebni spletni strani</p>
       <br>
-      <h2>Work in progress</h2>
-      <a href=""<i class="fa fa-envelope-o fa-3x"></i></a>
-      <a href=""<i class="fa fa-address-card-o fa-3x"></i></a>
-      <a href=""<i class="fa fa-github fa-3x"></i></a>
-      <a href=""<i class="fa fa-facebook-square fa-3x"></i></a>
+
+      <ul class="list-inline">
+        <li>
+          <a id="denis.kotnik@gmail.com" href="mailto:denis.kotnik@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
+        </li>
+        <li>
+          <a id="Življenjepis" href=""><i class="fa fa-address-card-o fa-3x"></i></a>
+        </li>
+        <li>
+          <a id="Github" href="https://github.com/kotnikd3"><i class="fa fa-github fa-3x"></i></a>
+        </li>
+        <li>
+          <a id="Facebook" href="https://www.facebook.com/kotnikd3"><i class="fa fa-facebook-square fa-3x"></i></a>
+        </li>
+      </ul>
+      <div class="besedilo">
+        skrito besedilo
+      </div>
     </div>
       
     <div class="container">
@@ -49,7 +77,7 @@
         Diplomiral in magistriral sem s področja umetne inteligence oz. strojnega učenja na <a href="http://www.fri.uni-lj.si/">Fakulteti za računalništvo in informatiko</a> v Ljubljani.
         </p>
         <p>
-            Ukvarjam se tudi s filozofijo in psihoanalizo, igram na kitaro, pojem v zboru, treniram borilno veščino Wing Chun, včasih pa napišem tudi kakšno poezijo.
+            Ukvarjam se tudi s filozofijo in psihoanalizo, igram na kitaro, pojem v zboru, treniram Wing Chun, včasih pa napišem tudi kakšno poezijo.
           </p>
         </div>
         <div class="col-sm-6">
@@ -109,5 +137,24 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('a').hover(function(){
+              //console.log($(this).attr("id"));
+              $('.besedilo').text($(this).attr("id"));
+              $('.besedilo').attr("style", "visibility: visible;");
+          }, function() {
+              $('.besedilo').attr("style", "visibility: hidden;");
+          });
+        });
+      </script>
   </body>
+  <!-- Footer -->
+  <footer>
+      <div class="container">
+          <div align="center" class="row">
+              <p class="copyright text-muted small">Denis Kotnik <i class="fa fa-heartbeat"/></i>2017</p>
+          </div>
+      </div>
+  </footer>
 </html>
