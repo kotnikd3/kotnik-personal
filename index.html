@@ -35,7 +35,9 @@
         "tecaji" : "courses",
         "projekt" : "project",
         "projekt2" : "project",
-        "igra" : "game"
+        "igra" : "game",
+        "cv_label" : "Curriculum Vitae (EN)",
+        "cv_href" : ""
       }
 
       $(function(){
@@ -51,6 +53,14 @@
             // V slovar shranim prejsnje besedilo.
             otherLang[$(this).attr('key')] = old;
           });
+
+          // Spremenim CV (oznako in povezavo do .pdf datoteke).
+          var old_cv_label = $('a.cv').attr('id');
+          var old_cv_href = $('a.cv').attr('href');
+          $('a.cv').attr('id', otherLang['cv_label']);
+          $('a.cv').attr('href', otherLang['cv_href']);
+          otherLang['cv_label'] = old_cv_label;
+          otherLang['cv_href'] = old_cv_href;
         });
       });
     </script>
@@ -99,7 +109,7 @@
           <a id="denis.kotnik@gmail.com" href="mailto:denis.kotnik@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
         </li>
         <li>
-          <a id="Curriculum Vitae" href="media/CV_Denis_Kotnik.pdf"><i class="fa fa-address-card-o fa-3x"></i></a>
+          <a class="cv" id="Curriculum Vitae (SLO)" href="media/CV_Denis_Kotnik.pdf"><i class="fa fa-address-card-o fa-3x"></i></a>
         </li>
         <li>
           <a id="Github" href="https://github.com/kotnikd3"><i class="fa fa-github fa-3x"></i></a>
