@@ -13,6 +13,47 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      var otherLang = {
+        "welcome" : "Welcome to my personal website",
+        "name" : "My name is Denis Kotnik.",
+        "born" : "I was born in Novo mesto on april 1991, what makes me 26 years old. I'm living in Ljubljana and Jezero, a village near Trebnje.",
+        "graduation" : "I graduated with my bachelor and master degree from artificial intelligence/machine learning on Faculty of Computer and Information Science, University of Ljubljana.",
+        "hobi" : "I'm also interested in philosophy, psychoanalysis, (choral) singing, playing guitar, Wing Chun and occasionally poetry.",
+        "about" : "About me",
+        "proffesional" : "My proffesional path",
+        "cgs" : "Since February 2014, I have been developing and maintaining (DevOps) information systems in Environment department at company CGS Labs.",
+        "prog_jeziki" : "I develop mainly in Java and Python programming languages, along with Laravel and Microsoft .NET frameworks (C#, ASP.NET Web Forms, system services and console applications for Windows OS).",
+        "cvp" : "I also maintain road weather stations in Slovenia, a databases (Microsoft SQL Sever, MySQL) and servers (Microsoft Windows 2012 R2, CentOS, Debian Squeeze).",
+        "linux" : "I'm native Mac OS X and Linux Ubuntu OS user.",
+        "famnit" : "Famnit, University of Primorska, project Po kreativni poti do znanja, 2015",
+        "ott" : "certificate",
+        "comtrade" : "summer school",
+        "admin_rozna" : "Administrator assistant for internet network, Rožna dolina, 2016-2017",
+        "tecaji" : "courses",
+        "projekt" : "project",
+        "projekt2" : "project",
+        "igra" : "game"
+      }
+
+      $(function(){
+        $(".translate").click(function(){
+          document.getElementById("en").classList.toggle('list-group-item-info');
+          document.getElementById("slo").classList.toggle('list-group-item-info');
+          
+          $.each($('p[key], h1[key], li[key], span[key]'), function(index, element){
+            // Shranim trenutno besedilo kot prejsnje.
+            var old = $(this).text();
+            // Trenutno besedilo zamenjam s tistim iz slovarja.
+            $(this).text(otherLang[$(this).attr('key')]);
+            // V slovar shranim prejsnje besedilo.
+            otherLang[$(this).attr('key')] = old;
+          });
+        });
+      });
+    </script>
     <style>
       body {
         font-family: 'Indie Flower', cursive;
@@ -38,10 +79,21 @@
   </head>
   <body>
     <div style="background:transparent !important" class="jumbotron text-center">
-      <h1>Denis Kotnik</h1>
-      <p>Dobrodošli na moji osebni spletni strani</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-offset-3 col-sm-6">
+            <h1>Denis Kotnik</h1>
+          </div>
+          <div class="col-sm-3">
+            <div class="list-group">
+              <a href="#" class="translate list-group-item list-group-item-info" id="slo">Slovenščina (SLO)</a>
+              <a href="#" class="translate list-group-item" id="en">English (UK)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p key="welcome">Dobrodošli na moji osebni spletni strani</p>
       <br>
-
       <ul class="list-inline social-icons">
         <li>
           <a id="denis.kotnik@gmail.com" href="mailto:denis.kotnik@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
@@ -51,7 +103,7 @@
         </li>
         <li>
           <a id="Github" href="https://github.com/kotnikd3"><i class="fa fa-github fa-3x"></i></a>
-        </li>
+        </li> 
         <li>
           <a id="Facebook" href="https://www.facebook.com/kotnikd3"><i class="fa fa-facebook-square fa-3x"></i></a>
         </li>
@@ -64,17 +116,17 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h1>Na kratko o meni</h1>
-          <p>
+          <h1 key="about">Na kratko o meni</h1>
+          <p key="name">
             Moje ime je Denis Kotnik.
           </p>
-          <p>
+          <p key="born">
             Rojen sem aprila 1991 v Novem mestu, tako da sem danes star 26 let. Živim v Ljubljani in na <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezeru</a> v bližini Trebnjega.
           </p>
-          <p>
+          <p key="graduation">
             Diplomiral sem (trenutno pišem tudi magistrsko nalogo) s področja umetne inteligence oz. strojnega učenja na <a href="http://www.fri.uni-lj.si/">Fakulteti za računalništvo in informatiko</a> v Ljubljani.
           </p>
-          <p>
+          <p key="hobi">
             Ukvarjam se tudi s filozofijo in psihoanalizo, igram na kitaro, pojem v zboru, treniram Wing Chun, včasih pa napišem tudi kakšno poezijo.
           </p>
         </div>
@@ -87,37 +139,40 @@
       </div>
       <div class="row">
           <div class="col-sm-12">
-            <h1>Moja strokovna pot</h1>
+            <h1 key="proffesional">Moja strokovna pot</h1>
           </div>
       </div>
       <div class="row">
         <div class="col-sm-6">
-            <p>
+            <p key="cgs">
                 Od februarja 2014 se v podjetju <a href="http://www.cgs-labs.com/">CGS Labs</a> na oddelku Okolje ukvarjam z razvijanjem in vzdrževanjem informacijskih sistemov (angl. <a href="https://en.wikipedia.org/wiki/DevOps">DevOps</a>).
             </p>
-            <p>
+            <p key="prog_jeziki">
                 Razvijam predvsem v programskih jezikih Java in Python ter okoljih Laravel (PHP) in Microsoft .NET (C#, ASP.NET Web Forms, sistemske storitve in konzolne aplikacije za Windows).
             </p>
-            <p>
+            <p key="cvp">
                 Vzdržujem cestnovremenske postaje po Sloveniji, podatkovne baze (MicrosoftS SQL Server) ter strežnike (Windows 2012 R2, Cent OS, Debian Squeeze).
+            </p>
+            <p key="linux">
+              Sem privzeti uporabnik Mac OS X in Linux Ubuntu OS.
             </p>
         </div>
         <div class="col-sm-6">
               <ul>
                 <li>Microsoft Certified Professional, Microsoft Exam 483: Programming in C#, 2017</li>
-                <li>Famnit, Univerza na Primorskem, sodelovanje na projektu Po kreativni poti do praktičnega znanja, 2015</li>
-                <li>OTT certificate, 2014</li>
-                <li>Comtrade d.o.o., poletna šola Bodi smart, bodi eko, 2013</li>
+                <li key="famnit">Famnit, Univerza na Primorskem, sodelovanje na projektu Po kreativni poti do praktičnega znanja, 2015</li>
+                <li>OTT <span key="ott">certifikat</span>, 2014</li>
+                <li>Comtrade d.o.o., <span key="comtrade">poletna šola</span> Bodi smart, bodi eko, 2013</li>
                 <li>CISCO CCNA Exploration: Network Fundamentals, 2010</li>
-                <li>Pomočnik administratorja omrežja, Rožna dolina, 2016-2017</li>
+                <li key="admin_rozna">Pomočnik administratorja omrežja, Rožna dolina, 2016-2017</li>
                 <li>
-                  Coursera tečaji
+                  Coursera <span key="tecaji">tečaji</span>
                   <ul>
                     <li>Front-End Web UI Frameworks and Tools, 2017</li>
                     <li>Introduction to Game Development, 2015
                       <ul>
-                        <li>Unity 3D projekt: <a href="https://www.youtube.com/watch?v=UZjLVe7J1jM">YouTube</a></li>
-                        <li>WebGL projekt: <a href="http://www.kotnik.si/broadside_pirates_webgl/">igra</a></li>
+                        <li>Unity 3D <span key="projekt">projekt</span>: <a href="https://www.youtube.com/watch?v=UZjLVe7J1jM">YouTube</a></li>
+                        <li>WebGL <span key="projekt2">projekt</span>: <a href="http://www.kotnik.si/broadside_pirates_webgl/"><span key="igra">igra</span></a></li>
                       </ul>
                     </li>
                     <li>Machine Learning, 2014</li>
@@ -130,8 +185,6 @@
         </div>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
           $('.social-icons a').hover(function(){
@@ -148,7 +201,7 @@
   <footer>
       <div class="container">
           <div align="center" class="row">
-              <p class="copyright text-muted small">Denis Kotnik <i class="fa fa-heartbeat"/></i>2017</p>
+              <p class="copyright text-muted small">Denis Kotnik <i class="fa fa-heartbeat"/></i>2018</p>
           </div>
       </div>
   </footer>
