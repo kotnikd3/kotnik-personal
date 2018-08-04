@@ -36,9 +36,6 @@
           color: #31708f;
           background-color: #d9edf7;
       }
-      .image-wrapper {
-        text-align: center;
-      }
       .invisible {
         visibility: hidden;
       }
@@ -79,16 +76,16 @@
         <div>
           <ul @mouseleave="mouseOut" class="list-inline social-icons">
             <li class="list-inline-item">
-                <a @mouseover="mouseOver(mail)" href="mailto:denis.kotnik@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+                <a @mouseover="mouseOver(socialMail)" href="mailto:denis.kotnik@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
             </li>
             <li class="list-inline-item">
-              <a @mouseover="mouseOver(cv_text[selectedLang])" :href="cv_href[selectedLang]"><i class="far fa-address-card fa-3x"></i></a>
+              <a @mouseover="mouseOver(socialCvText[selectedLang])" :href="socialCvHref[selectedLang]"><i class="far fa-address-card fa-3x"></i></a>
             </li>
             <li class="list-inline-item">
-              <a @mouseover="mouseOver(github)" href="https://github.com/kotnikd3"><i class="fab fa-github fa-3x"></i></a>
+              <a @mouseover="mouseOver(socialGithub)" href="https://github.com/kotnikd3"><i class="fab fa-github fa-3x"></i></a>
             </li> 
             <li class="list-inline-item">
-              <a @mouseover="mouseOver(facebook)" href="https://www.facebook.com/kotnikd3"><i class="fab fa-facebook-square fa-3x"></i></a>
+              <a @mouseover="mouseOver(socialFacebook)" href="https://www.facebook.com/kotnikd3"><i class="fab fa-facebook-square fa-3x"></i></a>
             </li>
           </ul>
           <p v-text="socialText" :class="['color-blue', {'visible': socialTextShow, 'invisible': !socialTextShow}]"></p>
@@ -104,13 +101,13 @@
         <div class="row">
           <div class="col-md-6">
             <p v-text="name[selectedLang]"></p>
-            <p v-html="born[selectedLang]"></p>
+            <p v-html="born[selectedLang].replace('_XX_', yearsDenis)"></p>
             <p v-html="graduation[selectedLang]"></p>
             <p v-text="hobi[selectedLang]"></p>
           </div>
           <div class="col-md-6">
             <div class="image-wrapper" >
-                <img class="img-rounded img-responsive center-block" src="media/me.jpg" alt="">
+                <img class="rounded img-fluid mx-auto d-block" src="media/me.jpg" alt="">
             </div>
           </div>
         </div>
@@ -159,19 +156,19 @@
             el: "#body-vue",
             data: {
               selectedLang: 'slo',
+              birthDenis: new Date('April 13, 91 00:00:00'),
               socialTextShow: false,
               socialText: "if you read this, let me know",
-
-              cv_href: {'slo' : 'media/CV_Denis_Kotnik/CV_Denis_Kotnik.pdf', 'en' : '#'},
-              cv_text: {'slo' : 'Curriculum Vitae (SLO)', 'en' : 'Curriculum Vitae (EN) - work in progress'},
-              mail: 'denis.kotnik@gmail.com',
-              github: 'Github',
-              facebook: 'Facebook',
+              socialCvHref: {'slo' : 'media/CV_Denis_Kotnik/CV_Denis_Kotnik.pdf', 'en' : '#'},
+              socialCvText: {'slo' : 'Curriculum Vitae (SLO)', 'en' : 'Curriculum Vitae (EN) - work in progress'},
+              socialMail: 'denis.kotnik@gmail.com',
+              socialGithub: 'Github',
+              socialFacebook: 'Facebook',
               
               welcome: {'slo' : 'Dobrodošli na moji osebni spletni strani', 'en' : 'Welcome to my personal website'},
               about: {'slo' : 'Na kratko o meni', 'en' : 'About me'},
               name: {'slo' : 'Moje ime je Denis Kotnik.', 'en' : 'My name is Denis Kotnik.'},
-              born: {'slo' : 'Rojen sem aprila 1991 v Novem mestu, tako da sem danes star 27 let. Živim v Ljubljani in na vasi <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, ki se nahaja v bližini Trebnjega.', 'en' : 'I was born in Novo mesto on april 1991, what makes me 27 years old. I\'m living in Ljubljana and <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, a village near town Trebnje.'},
+              born: {'slo' : 'Rojen sem aprila 1991 v Novem mestu, tako da sem danes star _XX_ let. Živim v Ljubljani in na vasi <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, ki se nahaja v bližini Trebnjega.', 'en' : 'I was born in Novo mesto on april 1991, what makes me _XX_ years old. I\'m living in Ljubljana and <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, a village near town Trebnje.'},
               graduation: {'slo' : '<a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=68903&lang=slv">Diplomiral</a> in <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=100897&lang=slv">magistriral</a> sem s področja umetne inteligence oz. strojnega učenja na <a href="http://www.fri.uni-lj.si/sl">Fakulteti za računalništvo in informatiko</a> v Ljubljani.', en : 'I graduated with my <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=68903&lang=slv">bachelor</a> and <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=100897&lang=slv">master</a> degree in artificial intelligence/machine learning from University of Ljubljana, <a href="http://www.fri.uni-lj.si/en">Faculty of Computer and Information Science</a>.'},
               hobi: {'slo' : 'Ukvarjam se tudi s filozofijo in psihoanalizo, igram na kitaro, pojem v zboru, zanimajo me borilne veščine (predvsem Wing Chun), včasih pa napišem tudi kakšno poezijo.', 'en' : 'I\'m also interested in philosophy, psychoanalysis, (choral) singing, guitar playing, martial arts (especially Wing Chun) and occasionally writing poetry.'},
               proffesional: {'slo' : 'Moja strokovna pot', 'en' : 'My proffesional path'},
@@ -186,7 +183,6 @@
               courses: {'slo' : 'tečaji', 'en' : 'courses'},
               project: {'slo' : 'projekt', 'en' : 'project'},
               game: {'slo' : 'igra', 'en' : 'game'}
-
             },
             methods: {
               toggleClass(jezik) {
@@ -198,6 +194,11 @@
               },
               mouseOut() {
                 this.socialTextShow = false;
+              }
+            },
+            computed: {
+              yearsDenis () {
+                return new Date(Date.now() -  this.birthDenis).getFullYear() - 1970;
               }
             }
           })
