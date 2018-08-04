@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85674923-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-85674923-1');
+    </script>
+
+    <title>Denis Kotnik</title>
+      
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="bower_components/font-awesome/svg-with-js/js/fontawesome-all.js"></script>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      var otherLang = {
+        'welcome' : 'Welcome to my personal website',
+        'name' : 'My name is Denis Kotnik.',
+        'born' : 'I was born in Novo mesto on april 1991, what makes me 27 years old. I\'m living in Ljubljana and <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, a village near town Trebnje.',
+        'graduation' : 'I graduated with my <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=68903&lang=slv">bachelor</a> and <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=100897&lang=slv">master</a> degree in artificial intelligence/machine learning from University of Ljubljana, <a href="http://www.fri.uni-lj.si/en">Faculty of Computer and Information Science</a>.',
+        'hobi' : 'I\'m also interested in philosophy, psychoanalysis, (choral) singing, guitar playing, martial arts (especially Wing Chun) and occasionally writing poetry.',
+        'about' : 'About me',
+        'proffesional' : 'My proffesional path',
+        'cgs' : 'I\'m employed as software developer at the company <a href="http://www.cgs-labs.com/">CGS Labs</a> in Environment department, where I\'m developing and maintaining information systems in domain of road meteorology.',
+        'prog_languages' : 'I\m developing mainly in Java and Python programming languages, along with Laravel (PHP 7) and Microsoft .NET frameworks (C#, ASP.NET Web Forms, system services and console applications for Windows OS).',
+        'rws' : 'I also maintain road weather stations in Slovenia, a databases (Microsoft SQL Sever, MySQL) and servers (Microsoft Windows 2012 R2, CentOS, Debian Squeeze).',
+        'linux' : 'Linux Ubuntu user',
+        'famnit' : 'Famnit, University of Primorska, project Po kreativni poti do praktičnega znanja, 2015',
+        'ott' : 'certificate',
+        'comtrade' : 'summer school',
+        'admin_rozna' : 'Administrator assistant for internet network, Rožna dolina, 2016-2017',
+        'courses' : 'courses',
+        'project' : 'project',
+        'project2' : 'project',
+        'game' : 'a game',
+        'cv_label' : 'Curriculum Vitae (EN)',
+        'cv_href' : ''
+      }
+
+      $(function(){
+        $(".translate").click(function(){
+          document.getElementById("en").classList.toggle('list-group-item-info');
+          document.getElementById("slo").classList.toggle('list-group-item-info');
+          
+          $.each($('p[key], h1[key], li[key], span[key]'), function(index, element){
+            // Shranim trenutno besedilo kot prejsnje.
+            var old = $(this).html();
+            // Trenutno besedilo zamenjam s tistim iz slovarja.
+            $(this).html(otherLang[$(this).attr('key')]);
+            // V slovar shranim prejsnje besedilo.
+            otherLang[$(this).attr('key')] = old;
+          });
+
+          // Spremenim CV (oznako in povezavo do .pdf datoteke).
+          var old_cv_label = $('a.cv').attr('id');
+          var old_cv_href = $('a.cv').attr('href');
+          $('a.cv').attr('id', otherLang['cv_label']);
+          $('a.cv').attr('href', otherLang['cv_href']);
+          otherLang['cv_label'] = old_cv_label;
+          otherLang['cv_href'] = old_cv_href;
+        });
+      });
+    </script>
+    <style>
+      body {
+        font-family: 'Indie Flower', cursive;
+        font-size: 20px;
+      }
+      p.copyright {
+          padding: 10px 0;
+      }
+      .image-wrapper {
+        text-align: center;
+      }
+      .besedilo {
+        visibility: hidden;
+        color: #337ab7;
+      }
+      @media(min-width:768px) {
+        .social-icons > li {
+          padding-right: 40px;
+          padding-left: 40px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background:transparent !important" class="jumbotron text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-offset-3 col-sm-6">
+            <h1>Denis Kotnik</h1>
+          </div>
+          <div class="col-sm-3">
+            <div class="list-group">
+              <a href="#" class="translate list-group-item list-group-item-info" id="slo">Slovenščina (SLO)</a>
+              <a href="#" class="translate list-group-item" id="en">English (UK)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p key="welcome">Dobrodošli na moji osebni spletni strani</p>
+      <br>
+      <ul class="list-inline social-icons">
+        <li>
+          <a id="denis.kotnik@gmail.com" href="mailto:denis.kotnik@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+        </li>
+        <li>
+          <a class="cv" id="Curriculum Vitae (SLO)" href="media/CV_Denis_Kotnik/CV_Denis_Kotnik.pdf"><i class="far fa-address-card fa-3x"></i></a>
+        </li>
+        <li>
+          <a id="Github" href="https://github.com/kotnikd3"><i class="fab fa-github fa-3x"></i></a>
+        </li> 
+        <li>
+          <a id="Facebook" href="https://www.facebook.com/kotnikd3"><i class="fab fa-facebook-square fa-3x"></i></a>
+        </li>
+      </ul>
+      <div class="besedilo">
+        skrito besedilo
+      </div>
+    </div>
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1 key="about">Na kratko o meni</h1>
+          <p key="name">
+            Moje ime je Denis Kotnik.
+          </p>
+          <p key="born">
+            Rojen sem aprila 1991 v Novem mestu, tako da sem danes star 27 let. Živim v Ljubljani in na vasi <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, ki se nahaja v bližini Trebnjega.
+          </p>
+          <p key="graduation">
+            <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=68903&lang=slv">Diplomiral</a> in <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=100897&lang=slv">magistriral</a> sem s področja umetne inteligence oz. strojnega učenja na <a href="http://www.fri.uni-lj.si/sl">Fakulteti za računalništvo in informatiko</a> v Ljubljani.
+          </p>
+          <p key="hobi">
+            Ukvarjam se tudi s filozofijo in psihoanalizo, igram na kitaro, pojem v zboru, zanimajo me borilne veščine (predvsem Wing Chun), včasih pa napišem tudi kakšno poezijo.
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <div class="image-wrapper" >
+              <img class="img-rounded img-responsive center-block" src="media/jaz.jpg" alt="">
+              <i></i>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12">
+            <h1 key="proffesional">Moja strokovna pot</h1>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+            <p key="cgs">
+                Zaposlen sem v podjetju <a href="http://www.cgs-labs.com/">CGS Labs</a> na oddelku Okolje, kjer se ukvarjam z razvijanjem in vzdrževanjem informacijskih sistemov za cestno meteorologijo.
+            </p>
+            <p key="prog_languages">
+                Razvijam predvsem v programskih jezikih Java in Python ter okoljih Laravel (PHP 7) in Microsoft .NET (C#, ASP.NET Web Forms, sistemske storitve in konzolne aplikacije za Windows).
+            </p>
+            <p key="rws">
+                Vzdržujem cestnovremenske postaje po Sloveniji, podatkovne baze (MicrosoftS SQL Server, MySQL) ter strežnike (Windows 2012 R2, Cent OS, Debian Squeeze).
+            </p>
+        </div>
+        <div class="col-sm-6">
+              <ul>
+                <li key="linux">Linux Ubuntu uporabnik</li>
+                <li>Microsoft Certified Professional, Microsoft Exam 483: Programming in C#, 2017</li>
+                <li key="famnit">Famnit, Univerza na Primorskem, sodelovanje na projektu Po kreativni poti do praktičnega znanja, 2015</li>
+                <li>OTT <span key="ott">certifikat</span>, 2014</li>
+                <li>Comtrade d.o.o., <span key="comtrade">poletna šola</span> Bodi smart, bodi eko, 2013</li>
+                <li>CISCO CCNA Exploration: Network Fundamentals, 2010</li>
+                <li key="admin_rozna">Pomočnik administratorja omrežja, Rožna dolina, 2016-2017</li>
+                <li>
+                  Coursera <span key="courses">tečaji</span>
+                  <ul>
+                    <li>Front-End Web UI Frameworks and Tools, 2017</li>
+                    <li>Introduction to Game Development, 2015
+                      <ul>
+                        <li>Unity 3D <span key="project">projekt</span>: <a href="https://www.youtube.com/watch?v=UZjLVe7J1jM">YouTube</a></li>
+                        <li>WebGL <span key="project2">projekt</span>: <a href="http://www.kotnik.si/broadside_pirates_webgl/"><span key="game">igra</span></a></li>
+                      </ul>
+                    </li>
+                    <li>Machine Learning, 2014</li>
+                    <li>Learning How to Learn, 2013</li>
+                    <li>Introduction to music production, 2013</li>
+                    <li>An Introduction to Interactive Programming in Python, 2013</li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.social-icons a').hover(function(){
+              //console.log($(this).attr("id"));
+              $('.besedilo').text($(this).attr("id"));
+              $('.besedilo').attr("style", "visibility: visible;");
+          }, function() {
+              $('.besedilo').attr("style", "visibility: hidden;");
+          });
+        });
+      </script>
+  </body>
+  <!-- Footer -->
+  <footer>
+      <div class="container">
+          <div align="center" class="row">
+              <p class="copyright text-muted small">Denis Kotnik <i class="fa fa-heartbeat"/></i> 2018</p>
+          </div>
+      </div>
+  </footer>
+</html>
