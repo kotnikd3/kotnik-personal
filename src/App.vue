@@ -19,7 +19,7 @@
           <li class="list-inline-item">
               <a @mouseover="mouseOver(socialMail)" href="mailto:denis.kotnik@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
           </li>
-          <li v-if="selectedLang == 'slo'" class="list-inline-item">
+          <li class="list-inline-item">
             <a @mouseover="mouseOver(socialCvText[selectedLang])" :href="socialCvHref[selectedLang]"><i class="far fa-address-card fa-3x"></i></a>
           </li>
           <li class="list-inline-item">
