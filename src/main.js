@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// Bootstrap.
+import 'bootstrap/dist/css/bootstrap.min.css'
+// Fontawesome.
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
 new Vue({
   el: '#body-vue',

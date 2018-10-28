@@ -1,22 +1,33 @@
 var path = require('path')
 var webpack = require('webpack')
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+// www.purgecss.com
+const PurgecssPlugin = require('purgecss-webpack-plugin')
+const glob = require('glob-all')
 
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, 'dist/'),
+    publicPath: 'dist/',
     filename: 'build.js'
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: [
-          'vue-style-loader',
-          'css-loader'
-        ],
+        loader: ExtractTextPlugin.extract({
+          use: 'css-loader',
+          fallback: 'vue-style-loader'
+        })
       },
+      // {
+      //   test: /\.css$/,
+      //   use: [
+      //     'vue-style-loader',
+      //     'css-loader'
+      //   ],
+      // },
       {
         test: /\.vue$/,
         loader: 'vue-loader',
@@ -32,15 +43,34 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(png|jpg|gif|svg|pdf|ttf|woff|woff2|eot)$/,
+        test: /\.(png|jpe?g|gif|pdf)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]',
-          publicPath: "./dist/"
+          name: 'assets/[name].[hash].[ext]',
+          publicPath: './dist/'
+        }
+      },
+      {
+        test: /\.(svg|ttf|woff|woff2|eot)$/, // font-awesome
+        loader: 'file-loader',
+        options: {
+          name: 'fonts/[name].[hash].[ext]',
+          publicPath: '../dist/'
         }
       }
     ]
   },
+  plugins: [
+    // ... Vue Loader plugin omitted
+    new ExtractTextPlugin("build.css"),
+    new PurgecssPlugin({
+      paths: glob.sync([
+        path.join(__dirname, './index.html'),
+        path.join(__dirname, './src/App.vue'),
+        path.join(__dirname, './src/main.js')
+      ])
+    })
+  ],
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js'

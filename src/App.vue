@@ -21,16 +21,16 @@
 			<div class="col">
 				<ul @mouseleave="mouseOut" class="list-inline social-icons">
 					<li class="list-inline-item">
-						<a @mouseover="mouseOver(socialMail)" href="mailto:denis.kotnik@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+						<a @mouseover="mouseOver('denis.kotnik@gmail.com')" href="mailto:denis.kotnik@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
 					</li>
 					<li class="list-inline-item">
 						<a @mouseover="mouseOver(socialCvText[selectedLang])" :href="socialCvHref[selectedLang]"><i class="far fa-address-card fa-3x"></i></a>
 					</li>
 					<li class="list-inline-item">
-						<a @mouseover="mouseOver(socialGithub)" href="https://github.com/kotnikd3"><i class="fab fa-github fa-3x"></i></a>
+						<a @mouseover="mouseOver('Github')" href="https://github.com/kotnikd3"><i class="fab fa-github fa-3x"></i></a>
 					</li> 
 					<li class="list-inline-item">
-						<a @mouseover="mouseOver(socialFacebook)" href="https://www.facebook.com/kotnikd3"><i class="fab fa-facebook-square fa-3x"></i></a>
+						<a @mouseover="mouseOver('Facebook')" href="https://www.facebook.com/kotnikd3"><i class="fab fa-facebook-square fa-3x"></i></a>
 					</li>
 				</ul>
 				<p v-text="socialText" :class="['color-blue', {'visible': socialTextShow, 'invisible': !socialTextShow}]"></p>
@@ -66,8 +66,6 @@
 </template>
 
 <script>
-import './../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
-
 export default {
   mounted: function(){
 	// When instance has been mounted, get anchor tag from URL and optionally set language.
@@ -87,10 +85,7 @@ export default {
 	  socialText: "if you read this, you are a hacker?!",
 	  socialCvHref: {'slo' : require('./Latex_CV/CV_Denis_Kotnik.pdf'), 'en' : '#'},
 	  socialCvText: {'slo' : 'Curriculum Vitae (SLO)', 'en' : 'Curriculum Vitae (EN) - work in progress'},
-	  socialMail: 'denis.kotnik@gmail.com',
-	  socialGithub: 'Github',
-	  socialFacebook: 'Facebook',
-	  
+
 	  welcome: {'slo' : 'Dobrodošli na moji osebni spletni strani', 'en' : 'Welcome to my personal website'},
 	  name: {'slo' : 'Moje ime je Denis Kotnik.', 'en' : 'My name is Denis Kotnik.'},
 	  born: {'slo' : 'Rojen sem aprila 1991 v Novem mestu, tako da sem danes star _XX_ let. Živim v Ljubljani in na vasi <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, ki se nahaja v bližini Trebnjega.', 'en' : 'I was born in Novo mesto on april 1991, what makes me _XX_ years old. I\'m living in Ljubljana and <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, a village near town Trebnje.'},
@@ -119,12 +114,20 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
+
+#app {
+    font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
   .first-row, .second-row {
 	  margin-bottom: 20px;
   }
   body {
-	font-family: 'Indie Flower', cursive;
 	font-size: 25px;
+	color: #2c3e50;
   }
   .footer {
 	  margin: 20px 0 20px 0; /* top right bottom left*/
