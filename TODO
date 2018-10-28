@@ -1,3 +1,4 @@
+Optimizacija webpack: ExtractTextPlugin in PurgeCSSPlugin uporabi samo v produkciji.
 V CV dodaj:
 - Linux uporanik
 - OTT certifikat 2014

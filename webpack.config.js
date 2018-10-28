@@ -16,9 +16,9 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract({
-          use: 'css-loader',
-          fallback: 'vue-style-loader'
+        use: ExtractTextPlugin.extract({
+          fallback: 'vue-style-loader',
+          use: 'css-loader?sourceMap'
         })
       },
       // {
