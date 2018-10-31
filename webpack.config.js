@@ -5,6 +5,8 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 const PurgecssPlugin = require('purgecss-webpack-plugin')
 const glob = require('glob-all')
 
+var PRODUCTION = process.env.NODE_ENV === 'production';
+
 module.exports = {
   entry: './src/main.js',
   output: {
@@ -16,10 +18,10 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: ExtractTextPlugin.extract({
+        use: PRODUCTION ? ExtractTextPlugin.extract({ // if PRODUCTION ? then : else
           fallback: 'vue-style-loader',
           use: 'css-loader?sourceMap'
-        })
+        }) : ['vue-style-loader', 'css-loader']
       },
       // {
       //   test: /\.css$/,
@@ -60,17 +62,6 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    // ... Vue Loader plugin omitted
-    new ExtractTextPlugin("build.css"),
-    new PurgecssPlugin({
-      paths: glob.sync([
-        path.join(__dirname, './index.html'),
-        path.join(__dirname, './src/App.vue'),
-        path.join(__dirname, './src/main.js')
-      ])
-    })
-  ],
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js'
@@ -88,7 +79,7 @@ module.exports = {
   devtool: '#eval-source-map'
 }
 
-if (process.env.NODE_ENV === 'production') {
+if (PRODUCTION) {
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
   module.exports.plugins = (module.exports.plugins || []).concat([
@@ -105,6 +96,15 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new webpack.LoaderOptionsPlugin({
       minimize: true
+    }),
+    // CSS kodo daj v loceno datoteko in iz nje odstrani neuporabljeno kodo.
+    new ExtractTextPlugin("build.css"),
+    new PurgecssPlugin({
+      paths: glob.sync([
+        path.join(__dirname, './index.html'),
+        path.join(__dirname, './src/App.vue'),
+        path.join(__dirname, './src/main.js')
+      ])
     })
   ])
 }
