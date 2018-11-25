@@ -29,9 +29,9 @@
 					<li class="list-inline-item">
 						<a @mouseover="mouseOver('Github')" href="https://github.com/kotnikd3"><i class="fab fa-github fa-3x"></i></a>
 					</li> 
-					<li class="list-inline-item">
+					<!-- <li class="list-inline-item">
 						<a @mouseover="mouseOver('Facebook')" href="https://www.facebook.com/kotnikd3"><i class="fab fa-facebook-square fa-3x"></i></a>
-					</li>
+					</li> -->
 				</ul>
 				<p v-text="socialText" :class="['color-blue', {'visible': socialTextShow, 'invisible': !socialTextShow}]"></p>
 			</div>
@@ -130,7 +130,7 @@ export default {
 	color: #2c3e50;
   }
   .footer {
-	  margin: 20px 0 20px 0; /* top right bottom left*/
+	  margin: 50px 0 20px 0; /* top right bottom left*/
   }
   .footer p {
 	  margin: 0;
@@ -149,7 +149,7 @@ export default {
 	visibility: visible;
   }
   .jumbotron {
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	background:transparent !important;
   }
   .buttons {
