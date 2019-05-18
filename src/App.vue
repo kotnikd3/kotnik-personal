@@ -79,7 +79,7 @@ export default {
 	  supportedLang: ['slo', 'en'],
 	  selectedLang: 'slo',
 	  birthDenis: new Date('April 13, 91 00:00:00'),
-	  imageDenis: require('./assets/me.jpg'),
+	  imageDenis: require('./assets/me_mangart.jpg'),
 
 	  socialTextShow: false,
 	  socialText: "if you read this, you are a hacker?!",
@@ -90,7 +90,7 @@ export default {
 	  name: {'slo' : 'Moje ime je Denis Kotnik.', 'en' : 'My name is Denis Kotnik.'},
 	  born: {'slo' : 'Rojen sem aprila 1991 v Novem mestu, tako da sem danes star _XX_ let. Živim v Ljubljani in na vasi <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, ki se nahaja v bližini Trebnjega.', 'en' : 'I was born in Novo mesto on april 1991, what makes me _XX_ years old. I\'m living in Ljubljana and <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, a village near town Trebnje.'},
 	  graduation: {'slo' : '<a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=68903&lang=slv">Diplomiral</a> in <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=100897&lang=slv">magistriral</a> sem s področja umetne inteligence oz. strojnega učenja na <a href="http://www.fri.uni-lj.si/sl">Fakulteti za računalništvo in informatiko</a> v Ljubljani, zaposlen pa sem v podjetju <a href="http://www.cgs-labs.com/">CGS Labs</a>.', en : 'I graduated with my <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=68903&lang=slv">bachelor</a> and <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=100897&lang=slv">master</a> degree in artificial intelligence/machine learning from University of Ljubljana, <a href="http://www.fri.uni-lj.si/en">Faculty of Computer and Information Science</a>. I\'m employed as software developer at the company <a href="http://www.cgs-labs.com/">CGS Labs</a>.'},
-	  hobi: {'slo' : 'Zanimata me tudi filozofija in psihoanaliza, igram na kitaro, pojem (v zboru), ukvarjam se z borilnimi veščinami (Wing Chun), včasih pa napišem tudi kakšno poezijo.', 'en' : 'I\'m also interested in philosophy, psychoanalysis, (choral) singing, guitar playing, martial arts (Wing Chun) and occasionally writing poetry.'}
+	  hobi: {'slo' : 'Zanimajo me tudi filozofija, psihoterapija in borilne veščine (tajski boks in Wing Chun), igram na kitaro, pojem (v zboru), hodim v hribe, včasih pa napišem tudi kakšno poezijo.', 'en' : 'I\'m also interested in philosophy, psychotherapy and martial arts (Muay Thai and Wing Chun), (choral) singing, guitar playing, mountain hiking and occasionally writing poetry.'}
 	}
   },
   methods: {
@@ -121,6 +121,7 @@ export default {
     font-family: 'Varela Round', Helvetica, Arial, sans-serif;
     /* font-family: 'Roboto', sans-serif; */
 }
+
 
   .first-row, .second-row {
 	  margin-bottom: 20px;
