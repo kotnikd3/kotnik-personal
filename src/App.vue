@@ -21,7 +21,7 @@
 			<div class="col">
 				<ul @mouseleave="mouseOut" class="list-inline social-icons">
 					<li class="list-inline-item">
-						<a @mouseover="mouseOver('denis.kotnik@gmail.com')" href="mailto:denis.kotnik@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+						<a @mouseover="mouseOver(mail[selectedLang])" href="mailto:denis.kotnik@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
 					</li>
 					<li class="list-inline-item">
 						<a @mouseover="mouseOver(socialCvText[selectedLang])" :href="socialCvHref[selectedLang]"><i class="far fa-address-card fa-3x"></i></a>
@@ -44,8 +44,8 @@
 		<div class="col-md-6">
 		  <p v-text="name[selectedLang]"></p>
 		  <p v-html="born[selectedLang].replace('_XX_', yearsDenis)"></p>
-		  <p v-html="graduation[selectedLang]"></p>
-		  <p v-text="hobi[selectedLang]"></p>
+		  <!-- <p v-html="graduation[selectedLang]"></p> -->
+		  <p v-html="hobi[selectedLang]"></p>
 		</div>
 		<div class="col-md-6">
 		  <div class="image-wrapper" >
@@ -79,7 +79,8 @@ export default {
 	  supportedLang: ['slo', 'en'],
 	  selectedLang: 'slo',
 	  birthDenis: new Date('April 13, 91 00:00:00'),
-	  imageDenis: require('./assets/me_mangart.jpg'),
+	  imageDenis: require('./assets/me_2.jpg'),
+	  mail: {'slo' : 'denis pika kotnik afna gmail pika com', 'en' : 'denis dot kotnik at gmail dot com'},
 
 	  socialTextShow: false,
 	  socialText: "if you read this, you are a hacker?!",
@@ -88,9 +89,8 @@ export default {
 
 	  welcome: {'slo' : 'Dobrodošli na moji osebni spletni strani', 'en' : 'Welcome to my personal website'},
 	  name: {'slo' : 'Moje ime je Denis Kotnik.', 'en' : 'My name is Denis Kotnik.'},
-	  born: {'slo' : 'Rojen sem aprila 1991 v Novem mestu, tako da sem danes star _XX_ let. Živim v Ljubljani in na vasi <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, ki se nahaja v bližini Trebnjega.', 'en' : 'I was born in Novo mesto on april 1991, what makes me _XX_ years old. I\'m living in Ljubljana and <a href="https://sl.wikipedia.org/wiki/Jezero,_Trebnje">Jezero</a>, a village near town Trebnje.'},
-	  graduation: {'slo' : '<a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=68903&lang=slv">Diplomiral</a> in <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=100897&lang=slv">magistriral</a> sem s področja umetne inteligence oz. strojnega učenja na <a href="http://www.fri.uni-lj.si/sl">Fakulteti za računalništvo in informatiko</a> v Ljubljani, zaposlen pa sem v podjetju <a href="http://www.cgs-labs.com/">CGS Labs</a>.', en : 'I graduated with my <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=68903&lang=slv">bachelor</a> and <a href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=100897&lang=slv">master</a> degree in artificial intelligence/machine learning from University of Ljubljana, <a href="http://www.fri.uni-lj.si/en">Faculty of Computer and Information Science</a>. I\'m employed as software developer at the company <a href="http://www.cgs-labs.com/">CGS Labs</a>.'},
-	  hobi: {'slo' : 'Zanimajo me tudi filozofija, psihoterapija in borilne veščine (tajski boks in Wing Chun), igram na kitaro, pojem (v zboru), hodim v hribe, včasih pa napišem tudi kakšno poezijo.', 'en' : 'I\'m also interested in philosophy, psychotherapy and martial arts (Muay Thai and Wing Chun), (choral) singing, guitar playing, mountain hiking and occasionally writing poetry.'}
+	  born: {'slo' : 'Star sem _XX_ let, po izobrazbi sem računalničar, zaposlen pa sem v podjetju <a href="https://www.cgs-labs.si/">CGS Labs</a>.', 'en' : 'I\'m _XX_ years old, have a master\'s degree in computer science and being employed as software developer at the company <a href="https://www.cgs-labs.si/">CGS Labs</a>.'},
+	  hobi: {'slo' : 'Zanimajo me borilne veščine (tajski boks in Wing Chun), filozofija (predvsem vzhodna), psihologija (predvsem jungovska psihoanaliza), glasba (kitara in zborovsko petje), gorništvo, športno plezanje in <a href="https://www.pesem.si/kotnik/pesmi/vse">poezija</a>.', en : 'I\'m interested in martial arts (Muay Thai and Wing Chun), philosophy (especially the east one), psychology (especially Jungian psychoanalysis), music (guitar and choir singing), mountain hiking, climbing and occasionally <a href="https://www.pesem.si/kotnik/pesmi/vse">poetry</a>.'},
 	}
   },
   methods: {
