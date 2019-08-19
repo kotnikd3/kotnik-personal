@@ -89,7 +89,7 @@ export default {
 
 	  welcome: {'slo' : 'Dobrodošli na moji osebni spletni strani', 'en' : 'Welcome to my personal website'},
 	  name: {'slo' : 'Moje ime je Denis Kotnik.', 'en' : 'My name is Denis Kotnik.'},
-	  born: {'slo' : 'Star sem _XX_ let, po izobrazbi sem računalničar, zaposlen pa sem v podjetju <a href="https://www.cgs-labs.si/">CGS Labs</a>.', 'en' : 'I\'m _XX_ years old, have a master\'s degree in computer science and being employed as software developer at the company <a href="https://www.cgs-labs.si/">CGS Labs</a>.'},
+	  born: {'slo' : 'Star sem _XX_ let, po izobrazbi računalničar, zaposlen pa sem v podjetju <a href="https://www.cgs-labs.si/">CGS Labs</a>.', 'en' : 'I\'m _XX_ years old, have a master\'s degree in computer science and being employed as software developer at the company <a href="https://www.cgs-labs.si/">CGS Labs</a>.'},
 	  hobi: {'slo' : 'Zanimajo me borilne veščine (tajski boks in Wing Chun), filozofija (predvsem vzhodna), psihologija (predvsem jungovska psihoanaliza), glasba (kitara in zborovsko petje), gorništvo, plezanje in <a href="https://www.pesem.si/kotnik/pesmi/vse">poezija</a>.', en : 'I\'m interested in martial arts (Muay Thai and Wing Chun), philosophy (especially the east one), psychology (especially Jungian psychoanalysis), music (guitar and choir singing), mountain hiking, climbing and occasionally <a href="https://www.pesem.si/kotnik/pesmi/vse">poetry</a>.'},
 	}
   },
