@@ -58,7 +58,7 @@
 	<div class="container">
 		<div class="row text-center footer">
 			<div class="col">
-				<p class="text-muted small">Denis Kotnik <i class="far fa-copyright"></i> 2019</p>
+				<p class="text-muted small">Denis Kotnik <i class="far fa-copyright"></i> {{ currentYear }}</p>
 			</div>
 		</div>
 	</div>
@@ -108,6 +108,9 @@ export default {
   computed: {
 	yearsDenis () {
 	  return new Date(Date.now() -  this.birthDenis).getFullYear() - 1970;
+	},
+	currentYear() {
+		return new Date().getFullYear();
 	}
   }
 }
