@@ -14,3 +14,6 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+
+2019: neoserv -> domovanje
+2020: domovanje -> neoserv
