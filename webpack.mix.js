@@ -41,12 +41,15 @@ mix.webpackConfig({
     }
 });
 
-
 mix.js('src/js/app.js', 'dist/js')
    .sass('src/scss/app.scss', 'dist/css')
    .copy('src/images/favicon.png', 'dist/images')
    .setPublicPath('dist')
    .setResourceRoot('dist');
+
+if (mix.inProduction()) {
+    mix.version();
+}
 
 // Full API
 // mix.js(src, output);
