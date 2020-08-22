@@ -1,0 +1,8 @@
+- .minify()
+- .purifyCss()
+
+- slika se v produkciji bere iz mape .src in ne .dist
+
+- robots.txt, .gitignore, .nojekyl
+
+- posodobi CV in dodaj povezavo do njega (require)

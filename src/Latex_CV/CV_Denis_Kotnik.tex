@@ -1,0 +1,258 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\usepackage[utf8x]{inputenc}
+\usepackage[slovene]{babel}
+\selectlanguage{slovene}
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{6.5cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Denis} % Your first name
+\familyname{Kotnik} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vit\ae}
+\datum{$\ast$ 13. april 1991, Novo mesto}
+%\address{Jezero 3A, 8210 Trebnje}{Slovenija}
+\mobile{041-628-416}
+% \phone{(000) 111 1112}
+% \fax{(000) 111 1113}
+\email{denis.kotnik@gmail.com}
+\homepage{www.kotnik.si}{www.kotnik.si} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+\photo[110pt][0.4pt]{pictures/me_3} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{,,Najdaljša je pot, ki te pripelje najbližje k sebi,
+\newline
+in najtežja je vaja, ki rodi najpreprostejši napev.`` \textemdash Rabindranath Tagore}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+%\pagestyle{empty} % Odstrani nogo.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{O meni}
+%\cvitem{Ime in priimek}{Denis Kotnik}
+%\cvitem{Datum rojstva}{13. april 1991}
+%\cvitem{Kraj rojstva}{Novo mesto}
+%\cvitem{Prebivališče}{Jezero 3A, 8210 Trebnje}
+%\cvitem{Telefon}{041-628-416}
+%\cvitem{Email}{denis.kotnik@gmail.com}
+%\cvitem{Spletna stran}{www.kotnikd.com}
+
+\section{Formalna izobrazba}
+%% VEJICE NI
+%\xpatchcmd\cventry{,}{}{}{}
+\renewcommand*{\cventry}[7][.25em]{%
+  \cvitem[#1]{#2}{%
+    {\bfseries#3}%
+    %\ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}% I changed this line (with comma) ...
+    \ifthenelse{\equal{#4}{}}{}{ {\slshape#4}}% ... into this one (without comma).
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    .\strut%
+    \ifx&#7&%
+      \else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+%%%
+
+%% VEJICA PONOVNO JE
+%\xpatchcmd\cventry{,}{}{}{}
+\renewcommand*{\cventry}[7][.25em]{%
+  \cvitem[#1]{#2}{%
+    {\bfseries#3}%
+    \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}% I changed this line (with comma) ...
+    %\ifthenelse{\equal{#4}{}}{}{ {\slshape#4}}% ... into this one (without comma).
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    .\strut%
+    \ifx&#7&%
+      \else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+%%%
+
+\cventry{2014\textendash 2018}{Magister inženir računalništva in informatike}{\textit{Magistrski študijski program druge stopnje Računalništvo in informatika}}{Univerza v Ljubljani}{Fakulteta za računalništvo in informatiko}{}  % Arguments not required can be left empty
+\cventry{2010\textendash 2014}{Diplomirani inženir računalništva in informatike (VS)}{\textit{Visokošolski strokovni študijski program Računalništvo in informatika}}{Univerza v Ljubljani}{Fakulteta za računalnistvo in informatiko}{}
+\cventry{2006\textendash 2010}{Elektrotehnik računalništva}{\textit{Srednje-poklicno izobraževanje}}{Šolski center Novo mesto}{Srednja elektro šola in tehniška gimnazija}{}
+
+
+\section{Magistrsko delo}
+\cvitem{Naslov}{\emph{Podatkovni tokovi in rezervoarsko vzorčenje pri napovedovanju proizvodnje sončnih elektrarn}}
+\cvitem{Mentor}{izr.\ prof.\ dr.\ Matjaž Kukar}
+\cvitem{Opis}{Cilj magistrskega dela je napoved proizvodnje električne energije sončnih elektrarn z uporabo algoritmov za delo s podatkovnimi tokovi.}
+\cvitem{Povezava}{\url{https://repozitorij.uni-lj.si/IzpisGradiva.php?id=100897}}
+
+\section{Diplomsko delo}
+
+\cvitem{Naslov}{\emph{Prilagodljivo kratkoročno napovedovanje lokalnih vremenskih parametrov}}
+\cvitem{Mentor}{izr.\ prof.\ dr.\ Matjaž Kukar}
+\cvitem{Opis}{Cilj diplomskega dela je preizkusiti, ali lahko z uporabo regresijskih metod ali umetnih nevronskih mrež popravimo oziroma izboljšamo napoved hitrosti vetra za določeno območje Slovenije.}
+\cvitem{Povezava}{\url{https://repozitorij.uni-lj.si/IzpisGradiva.php?id=68903}}
+
+\clearpage % Nova stran.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Izkušnje}
+\cvitem{}{}
+\subsection{\textbf{CGS Labs d.o.o}., \textit{Brnčičeva ulica 13, 1000 Ljubljana}}
+\cvitem{Obdobje}{februar 2014\textendash danes}
+\cvitem{Opis}{
+Na oddelku Okolje načrtujem (modelirni jezik UML, principi \textit{SOLID}, \textit{Robert C. Martin: Clean Architecture}), razvijam, postavljam v produkcijo in vzdržujem informacijske sisteme oz. odločitvene sisteme za podporo cestni meteorologiji in zimskemu vzdrževanju. Pomemben del omenjenih rešitev je tudi razvoj in integracija modelov umetne inteligence oz. strojnega učenja. Razvijam predvsem v programskih jezikih Java in Python ter ogrodjih Laravel (PHP 7), VueJS 2 (Javascript) in Microsoft .NET (C\#, ASP.NET Web Forms, sistemske storitve in konzolne aplikacije za Windows). 
+\newline
+Vzdržujem podatkovne baze (Microsoft SQL Server, MySQL) ter strežnike (Windows 2012 R2, Linux Ubuntu).
+\newline
+Moje delo je tudi tesno sodelovanje z uporabniki razvitih rešitev, predvsem z Družbo za avtoceste v Republiki Sloveniji (DARS), Direkcijo Republike Slovenije za infrastrukturo (DRSI) in Agencijo Republike Slovenije za okolje (ARSO).
+\newline
+}
+\vspace*{0.5cm}
+
+\subsection{\textbf{Famnit, Univerza na Primorskem}, \textit{Glagoljaška 8, 6000 Koper}}
+\cvitem{Obdobje}{april\textendash avgust 2015}
+\cvitem{Opis}{
+V sodelovanju s \textit{Fakulteto za matematiko, naravoslovje in informacijske tehnologije} in podjetjem \textit{CGS plus} sem bil del projekta \textit{Po kreativni poti do praktičnega znanja}.
+\newline
+V projektu sem razvil in skrbel sem za spletno aplikacijo, v kateri je bil poudarek na vizualizaciji podatkov v obliki grafov. Aplikacijo sem razvil v \textit{ASP.NET 4} (\textit{MVC}, \textit{C\#}).
+}
+
+\vspace*{0.5cm}
+
+\subsection{\textbf{Comtrade d.o.o.}, \textit{Letališka cesta 29B, 1000 Ljubljana}}
+\cvitem{Obdobje}{julij 2013}
+\cvitem{Opis}{
+Cilj poletne šole \textit{Bodi smart, bodi eko} je bil razviti sistem za krmiljenje naprav v pametnih hišah.
+\newline
+V ekipi sem prevzel vlogo \textit{backend} razvijalca na računalniku \textit{Raspberry Pi} oz. vzpostavil in vzdrževal podatkovno bazo ter razvil vmesnik v programskem jeziku \textit{PHP} za komunikacijo z \textit{Android} napravami.
+}
+
+\clearpage % Nova stran.
+
+\section{Certifikati}
+\cvitem{2017}{Microsoft Certified Professional, \textit{Microsoft Exam 483: Programming in C\#}}
+\cvitem{2010}{CISCO CCNA Exploration: Network Fundamentals}
+
+\vspace*{0.5cm}
+
+\section{Tečaji \textit{Coursera}}
+\cvitem{2020}{Sequences, Time Series and Prediction, \textit{deaplearning.ai}}
+\cvitem{2020}{Structuring Machine Learning Projects, \textit{deaplearning.ai}}
+\cvitem{2019}{Service oriented architecture, \textit{University of Alberta}}
+\cvitem{2018}{Microservices - Fundamentals, \textit{IBM}}
+\cvitem{2017}{Front-End Web UI Frameworkds and Tools, \textit{The Hong Kong University}}
+\cvitem{2015}{Introduction to game development, \textit{Michigan State University}, projekta:}
+\cvitem{}{\listitemsymbol WebGL, igra: \url{https://www.kotnik.si/broadside_pirates_webgl/}}
+\cvitem{}{\listitemsymbol Unity3D, video: \url{https://www.youtube.com/watch?v=UZjLVe7J1jM&t=84s}}
+\cvitem{2014}{Machine learning, \textit{Stanford University}}
+\cvitem{2013}{Learning how to learn, \textit{McMaster University}}
+\cvitem{2014}{Introduction to music production, \textit{Berklee College of Music}}
+\cvitem{2013}{An introduction to interactive programming in Python (part 1), \textit{Rice University}}
+
+\vspace*{0.5cm}
+
+\section{Ostalo}
+\cvitem{2020}{Učenje za mlajšega pripravnika alpinistične šole Železničar, \textit{www.aozeleznicar.org}}
+\cvitem{2010\textendash danes}{Uporabnik operacijskega sistema Linux Ubuntu}
+\cvitem{2016\textendash 2017}{Pomočnik administratorja omrežja, \textit{Rožna dolina, blok 12}}
+\cvitem{2012\textendash 2014}{Član mednarodne organizacije EESTEC, \textit{www.eestec-lj.org}}
+\cvitem{2013}{Izpit za voditelja čolna do dolžine 24 m}
+\cvitem{Otroška leta}{Osnovna glasbena šola Trebnje; sintesizer}
+
+\vspace*{0.5cm}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Jeziki}
+
+\cvitem{Slovenščina}{Materni jezik}
+\cvitem{Angleščina}{Odlično razumevanje, prav dobro govorjenje, prav dobro pisanje}
+\cvitem{Nizozemščina}{Trenutno se učim; znam 250 besed in osnove slovničnih pravil}
+\cvitem{Hrvaščina}{Dobro razumevanje, zadostno govorjenje, zadostno pisanje}
+
+\vspace*{0.5cm}
+
+\clearpage % Nova stran.
+
+\section{Interesi}
+
+\renewcommand{\listitemsymbol}{\textendash~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Filozofija}{Psihologija (psihoanaliza)}
+\cvlistdoubleitem{Tek}{Borilne veščine (Wing Chun)}
+\cvlistdoubleitem{Igranje kitare}{Petje (v zboru)}
+\cvlistdoubleitem{Odbojka}{Šah}
+\cvlistdoubleitem{Gorništvo}{Plezanje}
+\cvlistdoubleitem{Smučanje}{Badminton}
+
+
+\section{Osebne lastnosti}
+\cvlistdoubleitem{Odprtomiseln}{Introvertiran}
+\cvlistdoubleitem{Včasih len}{Čut za skrb}
+\cvlistdoubleitem{Odgovoren} {Organiziran}
+\cvlistdoubleitem{Všeč mi je red in čistoča}{Všeč so mi osebni izzivi}
+\cvlistdoubleitem{Svojeglav}{}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Priloga]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+%%\pagestyle{empty} % Odstrani nogo.
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+\nopagenumbers % Odstrani stevilke strani oz. ne uposteva te strani.
+%----------------------------------------------------------------------------------------
+
+\end{document}

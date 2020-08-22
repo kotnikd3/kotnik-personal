@@ -1,0 +1,75 @@
+
+///////////////////////////////////////
+// // Font Awesome
+///////////////////////////////////////
+// $fa-font-path: "../fonts";
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+// @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+// @import '~@fortawesome/fontawesome-free/scss/regular.scss';
+// @import '~@fortawesome/fontawesome-free/scss/solid.scss';
+// @import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+
+///////////////////////////////////////
+// Bulma
+///////////////////////////////////////
+// New variables
+$color-blue: #337ab7;
+$color-blue-black: #2c3e50;
+//Overriden variables
+$text: $color-blue-black;
+$title-color: $color-blue-black;
+$footer-background-color: white;
+$footer-padding: 24px;
+$link: $color-blue !default;
+$link-hover: $color-blue-black !default;
+
+.color-blue {
+    color: $color-blue;
+}
+
+.zero-top-padding {
+    padding-top: 0px !important;
+}
+
+.social-icons > span {
+    margin-right: 10px;
+}
+
+// @import "~bulma/sass/utilities/_all.sass";
+// @import "~bulma/sass/elements/button.sass";
+@import "~bulma/bulma.sass";
+
+///////////////////////////////////////
+// Bulma-tooltip
+///////////////////////////////////////
+// Overriden
+$tooltip-radius: 8px;
+$tooltip-background-color: $color-blue-black;
+$tooltip-background-opacity: 1;
+
+@import '@creativebulma/bulma-tooltip';
+
+///////////////////////////////////////
+// Google fonts
+///////////////////////////////////////
+// https://google-webfonts-helper.herokuapp.com/fonts/varela-round?subsets=latin
+
+/* varela-round-regular - latin */
+@font-face {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/varela-round-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Varela Round Regular'), local('VarelaRound-Regular'),
+         url('../fonts/varela-round-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/varela-round-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/varela-round-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/varela-round-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/varela-round-v12-latin-regular.svg#VarelaRound') format('svg'); /* Legacy iOS */
+}
+
+body {
+    font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+}
+
