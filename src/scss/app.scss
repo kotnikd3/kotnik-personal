@@ -2,13 +2,13 @@
 ///////////////////////////////////////
 // // Font Awesome
 ///////////////////////////////////////
-// $fa-font-path: "../fonts";
-@import '~@fortawesome/fontawesome-free/css/all.min.css';
-// @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-// @import '~@fortawesome/fontawesome-free/scss/regular.scss';
-// @import '~@fortawesome/fontawesome-free/scss/solid.scss';
-// @import '~@fortawesome/fontawesome-free/scss/brands.scss';
 
+// Import only what is needed ...
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss'; // far
+@import '~@fortawesome/fontawesome-free/scss/brands.scss'; // fab
+// ... OR import all.
+// @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 ///////////////////////////////////////
 // Bulma
@@ -36,9 +36,22 @@ $link-hover: $color-blue-black !default;
     margin-right: 10px;
 }
 
-// @import "~bulma/sass/utilities/_all.sass";
-// @import "~bulma/sass/elements/button.sass";
-@import "~bulma/bulma.sass";
+// Import only what is needed ...
+@import "~bulma/sass/utilities/_all";
+@import "~bulma/sass/base/_all";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/icon.sass";
+@import "~bulma/sass/elements/content.sass";
+@import "~bulma/sass/elements/title.sass";
+@import "~bulma/sass/form/_all.sass";
+@import "~bulma/sass/components/level.sass";
+@import "~bulma/sass/grid/columns.sass";
+@import "~bulma/sass/helpers/_all";
+@import "~bulma/sass/layout/footer.sass";
+@import "~bulma/sass/layout/section.sass";
+// ... OR import all.
+// @import "~bulma/bulma.sass";
 
 ///////////////////////////////////////
 // Bulma-tooltip

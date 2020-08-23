@@ -1,5 +1,5 @@
 let mix = require('laravel-mix');
-
+require('laravel-mix-purgecss');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -45,7 +45,18 @@ mix.js('src/js/app.js', 'dist/js')
    .sass('src/scss/app.scss', 'dist/css')
    .copy('src/images/favicon.png', 'dist/images')
    .setPublicPath('dist')
-   .setResourceRoot('dist');
+   .setResourceRoot('dist')
+   .purgeCss({
+        // Works only in production.
+        extend: {
+            content: [
+                path.join(__dirname, './index.html'),
+                path.join(__dirname, './src/app.js'),
+                path.join(__dirname, './src/js/App.vue')
+            ],
+            // whitelistPatterns: [/hljs/],
+        },
+    });
 
 if (mix.inProduction()) {
     mix.version();
