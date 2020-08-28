@@ -38,16 +38,14 @@
 								<h1 class="title">Denis Kotnik</h1>
 								<h2 class="subtitle" v-text="about[selectedLang]"></h2>
 								<p v-html="introduction[selectedLang]"></p>
-								<!-- <br>
+								<br>
 								<p v-html="authors[selectedLang]"></p>
 								<br>
 								<p v-html="idea[selectedLang]"></p>
 								<br>
 								<p v-html="why[selectedLang]"></p>
 								<br>
-								<p v-html="change[selectedLang]"></p> 
-								
-								Master -->
+								<p v-html="change[selectedLang]"></p>
 							</div>
 						</section>
 				 	</div>
