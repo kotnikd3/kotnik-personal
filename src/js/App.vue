@@ -11,7 +11,7 @@
 										<div class="field has-addons social-icons">
 											<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Github"><a class="color-bluee" href="https://github.com/kotnikd3"><i class="fab fa-github fa-3x"></i></a></span>
 											<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Goodreads"><a href="https://www.goodreads.com/user/show/103410209-denis-kotnik"><i class="fab fa-goodreads fa-3x"></i></a></span>
-											<span v-show="selectedLang == 'sl'" class="has-tooltip-arrow has-tooltip-bottom" :data-tooltip="'Curriculum Vitae (' + selectedLang + ')'"><a :href="cvSl"><i class="far fa-address-card fa-3x"></i></a></span>
+											<!-- <span v-show="selectedLang == 'sl'" class="has-tooltip-arrow has-tooltip-bottom" :data-tooltip="'Curriculum Vitae (' + selectedLang + ')'"><a :href="cvSl"><i class="far fa-address-card fa-3x"></i></a></span> -->
 										</div>
 									</div>
 								</div>
@@ -44,8 +44,6 @@
 								<p v-html="idea[selectedLang]"></p>
 								<br>
 								<p v-html="why[selectedLang]"></p>
-								<br>
-								<p v-html="change[selectedLang]"></p>
 							</div>
 						</section>
 				 	</div>
