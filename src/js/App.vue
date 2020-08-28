@@ -45,7 +45,7 @@
 								<br>
 								<p v-html="why[selectedLang]"></p>
 								<br>
-								<p v-html="change[selectedLang]"></p> -->
+								<p v-html="change[selectedLang]"></p> Master -->
 							</div>
 						</section>
 				 	</div>
