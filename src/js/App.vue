@@ -19,13 +19,13 @@
 									<div class="level-item">
 										<div class="field has-addons">
 											<p class="control">
-												<button @click="toggleClass('sl')" :class="['button', { 'is-link' : selectedLang == 'sl' }]">Sl</button>
+												<button @click="toggleClass('sl')" :class="['button', { 'is-link' : selectedLang == 'sl' }]">SL</button>
 											</p>
 											<p class="control">
-												<button @click="toggleClass('en')" :class="['button', { 'is-link' : selectedLang == 'en' }]">En</button>
+												<button @click="toggleClass('en')" :class="['button', { 'is-link' : selectedLang == 'en' }]">EN</button>
 											</p>
 											<p class="control">
-												<button @click="toggleClass('nl')" :class="['button', { 'is-link' : selectedLang == 'nl' }]">Nl</button>
+												<button @click="toggleClass('nl')" :class="['button', { 'is-link' : selectedLang == 'nl' }]">NL</button>
 											</p>
 										</div>
 									</div>
@@ -72,7 +72,7 @@ export default {
 	  // Merge two dictionaries: Object.assign({}, a, b);ad
 	  return Object.assign({}, translations, {
 		  selectedLang: 'sl',
-		  imageDenis: require('../images/me.jpg'),
+		  imageDenis: require('../images/me_bw.jpg'),
 		  cvSl: require('../Latex_CV/CV_Denis_Kotnik.pdf')
 	  });
   },

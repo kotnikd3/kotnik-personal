@@ -36,6 +36,10 @@ $link-hover: $color-blue-black !default;
     margin-right: 10px;
 }
 
+img {
+    width: 80%;
+}
+
 // Import only what is needed ...
 @import "~bulma/sass/utilities/_all";
 @import "~bulma/sass/base/_all";
