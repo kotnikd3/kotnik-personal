@@ -69,7 +69,7 @@ import { translations } from './Translations.js';
 
 export default {
   data() {
-	  // Merge two dictionaries: Object.assign({}, a, b);ad
+	  // Merge two dictionaries: Object.assign({}, a, b);
 	  return Object.assign({}, translations, {
 		  selectedLang: 'sl',
 		  imageDenis: require('../images/me_bw.jpg'),
