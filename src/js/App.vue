@@ -47,7 +47,7 @@
 							</div>
 						</section>
 				 	</div>
-				 	<div class="column">
+				 	<div class="column has-text-centered">
 						<img :src="imageDenis" alt="Denis Kotnik">
 					</div>
 				</div>
