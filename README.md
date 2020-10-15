@@ -16,5 +16,5 @@ npm run hot
 npm run production
 ```
 
-- 2019: neoserv -> domovanje  
-- 2020: domovanje -> neoserv
+> - 2019: neoserv -> domovanje  
+> - 2020: domovanje -> neoserv
