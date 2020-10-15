@@ -1,5 +1,6 @@
 # www.kotnik.si
-My web page repository.
+My web page repository.  
+Builded with Vue.js and Bulma.
 > 
 
 ## Build Setup
