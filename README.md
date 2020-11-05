@@ -1,8 +1,9 @@
-# www.kotnik.si
-My web page repository.  
-Builded with Vue.js and Bulma.
-> 
+# My web page repository  
 
+## www.kotnik.si  
+Builded with Vue.js 2.x and Bulma. Free to use.
+
+> 
 ## Build Setup
 
 ``` bash
@@ -17,5 +18,6 @@ npm run hot
 npm run production
 ```
 
+## Hosting
 >- 2019: neoserv -> domovanje  
 >- 2020: domovanje -> neoserv

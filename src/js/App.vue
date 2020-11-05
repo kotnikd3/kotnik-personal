@@ -1,8 +1,10 @@
 <template>
 	<div>
+		<!-- Introduction -->
 		<section class="section">
 			<div class="container">
 				<div class="columns">
+					<!-- Column -->
 					<div class="column">
 						<section class="section zero-top-padding">
 							<div class="level">
@@ -34,26 +36,28 @@
 						</section>
 						
 						<section class="section">
-							<div class="container">
-								<h1 class="title">Denis Kotnik</h1>
-								<h2 class="subtitle" v-text="about[selectedLang]"></h2>
-								<p v-html="introduction[selectedLang]"></p>
-								<br>
-								<p v-html="authors[selectedLang]"></p>
-								<br>
-								<p v-html="idea[selectedLang]"></p>
-								<br>
-								<p v-html="why[selectedLang]"></p>
-							</div>
+							<h1 class="title">Denis Kotnik</h1>
+							<h2 class="subtitle" v-text="about[selectedLang]"></h2>
+							<p v-html="introduction[selectedLang]"></p>
 						</section>
 				 	</div>
+					<!-- Column -->
 				 	<div class="column has-text-centered">
 						<img :src="imageDenis" alt="Denis Kotnik">
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- Noga. -->
+		<!-- Opinions -->
+		<section v-show="selectedLang == 'sl'" class="section zero-top-padding">
+			<div class="container">
+				<div class="section">
+					<h1 class="title is-4">O mnenjih in resnici</h1>
+					<p v-html="opinions[selectedLang]"></p>
+				</div>
+			</div>
+		</section>
+		<!-- Footer -->
 		<footer class="footer">
 			<div class="container">
 				<div class="content has-text-centered">
