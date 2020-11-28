@@ -1,7 +1,8 @@
-# My web page repository  
+# www.kotnik.si
 
-## www.kotnik.si  
-Builded with Vue.js 2.x and Bulma. Free to use.
+## About the project
+My web page repository build with Vue.js 2.x and Bulma.  
+Free to use.
 
 > 
 ## Build Setup
