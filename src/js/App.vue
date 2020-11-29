@@ -76,8 +76,8 @@ export default {
 	  // Merge two dictionaries: Object.assign({}, a, b);
 	  return Object.assign({}, translations, {
 		  selectedLang: 'sl',
-		  imageDenis: require('../images/me_bw.jpg'),
-		  cvSl: require('../Latex_CV/CV_Denis_Kotnik.pdf')
+		  imageDenis: require('../images/me_bw.jpg')
+		  //cvSl: require('../Latex_CV_SL/Denis_Kotnik_CV_SL.pdf')
 	  });
   },
   methods: {

@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /src/Latex_CV/
+Disallow: /src/Latex_CV_SL/
+Disallow: /src/Latex_CV_EN/
 Disallow: /dist/assets/*.pdf

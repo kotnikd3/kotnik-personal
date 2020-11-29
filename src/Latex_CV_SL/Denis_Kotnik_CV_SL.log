@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.8)  29 AUG 2020 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.8)  29 NOV 2020 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**CV_Denis_Kotnik.tex
-(./CV_Denis_Kotnik.tex
+**Denis_Kotnik_CV_SL.tex
+(./Denis_Kotnik_CV_SL.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 31 language(s) loaded.
 (./moderncv.cls
@@ -405,8 +405,8 @@ Package babel Info: Redefining slovene shorthand "|
 (babel)             in language  on input line 64.
 Package babel Info: Redefining slovene shorthand "|
 (babel)             in language  on input line 64.
- (./CV_Denis_Kotnik.aux)
-\openout1 = `CV_Denis_Kotnik.aux'.
+ (./Denis_Kotnik_CV_SL.aux)
+\openout1 = `Denis_Kotnik_CV_SL.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
@@ -525,9 +525,9 @@ LaTeX Info: Redefining \ref on input line 64.
 LaTeX Info: Redefining \pageref on input line 64.
 LaTeX Info: Redefining \nameref on input line 64.
 
-(./CV_Denis_Kotnik.out) (./CV_Denis_Kotnik.out)
+(./Denis_Kotnik_CV_SL.out) (./Denis_Kotnik_CV_SL.out)
 \@outlinefile=\write3
-\openout3 = `CV_Denis_Kotnik.out'.
+\openout3 = `Denis_Kotnik_CV_SL.out'.
 
 \pagenumberwidth=\skip68
 \makecvtitledetailsbox=\box29
@@ -542,11 +542,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvtitlepicturebox=\box30
-<pictures/me.jpg, id=59, 476.78125pt x 600.2425pt>
-File: pictures/me.jpg Graphic file (type jpg)
-<use pictures/me.jpg>
-Package pdftex.def Info: pictures/me.jpg  used on input line 66.
-(pdftex.def)             Requested size: 110.0pt x 138.48334pt.
+<pictures/Denis_2020.jpg, id=7, 979.7403pt x 967.6953pt>
+File: pictures/Denis_2020.jpg Graphic file (type jpg)
+<use pictures/Denis_2020.jpg>
+Package pdftex.def Info: pictures/Denis_2020.jpg  used on input line 66.
+(pdftex.def)             Requested size: 110.0pt x 108.64691pt.
 \makecvtitledetailswidth=\skip69
 \makecvtitlepicturewidth=\skip70
 
@@ -579,64 +579,114 @@ Package babel Info: Redefining slovene shorthand "|
 (babel)             in language  on input line 129.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/me.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/Denis_2020.jpg>
+]
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 134.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 143--143
+\T1/lmr/m/n/10.95 (+20) Imam iz-ku-²nje iz knji-ºnic in og-ro-dij \T1/lmr/m/it/
+10.95 (+20) Mi-cro-soft .NET \T1/lmr/m/n/10.95 (+20) (pro-grami, sis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+
+ []
+
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 146.
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]$\T1/lmtt/m/n/10.95 https : / / zenodo . org / record / 1485684 / files / Con
+tribution _ 11014 _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+
+ []
+
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 149.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 159.
-Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 167.
-Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 167.
- [2
+(babel)             in language  on input line 165.
+[2
 
 ]
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 188.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 214.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 214.
+(babel)             in language  on input line 210.
+Package babel Info: Redefining slovene shorthand "|
+(babel)             in language  on input line 210.
  [3
 
 ]
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 216.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 227.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 245.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
+Package babel Info: Redefining slovene shorthand "|
+(babel)             in language  on input line 275.
+Package babel Info: Redefining slovene shorthand "|
+(babel)             in language  on input line 275.
  [4
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
- (./CV_Denis_Kotnik.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
-Package rerunfilecheck Info: File `CV_Denis_Kotnik.out' has not changed.
-(rerunfilecheck)             Checksum: 2EE41D10128037CC1CD8392F603F65DF;2075.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
+ (./Denis_Kotnik_CV_SL.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
+
+
+Package rerunfilecheck Warning: File `Denis_Kotnik_CV_SL.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Denis_Kotnik_CV_SL.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  D1247F4E7BA4D0D2D39FE827FCB81BBA;2312.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 13599 strings out of 494299
- 195964 string characters out of 6163395
- 426551 words of memory out of 5000000
- 16688 multiletter control sequences out of 15000+600000
- 88894 words of font info for 88 fonts, out of 8000000 for 9000
+ 13596 strings out of 494299
+ 196012 string characters out of 6163395
+ 425560 words of memory out of 5000000
+ 16674 multiletter control sequences out of 15000+600000
+ 89450 words of font info for 93 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
- 43i,12n,67p,781b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,67p,784b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publi
@@ -647,10 +697,10 @@ nts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmro8.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV_Denis_Kotnik.pdf (4 pages, 558760 bytes).
+Output written on Denis_Kotnik_CV_SL.pdf (4 pages, 2225860 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 27758 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 27654 words of extra memory for PDF output out of 29859 (max. 10000000)
 

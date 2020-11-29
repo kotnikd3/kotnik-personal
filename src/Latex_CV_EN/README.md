@@ -1,4 +1,4 @@
-# Denis Kotnik CV
+# Denis Kotnik CV EN
 # www.kotnik.si
 
 ## Installing Tex on Ubuntu 18.04
