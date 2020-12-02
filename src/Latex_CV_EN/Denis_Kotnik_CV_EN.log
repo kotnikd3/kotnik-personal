@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.8)  29 NOV 2020 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.8)  2 DEC 2020 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -612,13 +612,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--163
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 163--163
-\T1/lmr/m/n/10.95 (+20) As part of the Eu-ro-pean pro-ject \T1/lmr/m/it/10.95 (
-+20) ME-TRo-STAT \T1/lmr/m/n/10.95 (+20) (\T1/lmr/m/it/10.95 (+20) E! 7050\T1/l
-mr/m/n/10.95 (+20) , \T1/lmr/m/it/10.95 (+20) Eu-ro-stars
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 163--163
 
  []
@@ -654,28 +647,28 @@ Package babel Info: Redefining slovene shorthand "|
 Package babel Info: Redefining slovene shorthand "|
 (babel)             in language  on input line 230.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 242.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
+(babel)             in language  on input line 243.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 273.
 Package babel Info: Redefining slovene shorthand "|
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 273.
  [4
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
  (./Denis_Kotnik_CV_EN.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `Denis_Kotnik_CV_EN.out' has not changed.
 (rerunfilecheck)             Checksum: 00CFCF303DDCA9D8F799BCBB973CFD23;2523.
  ) 
 Here is how much of TeX's memory you used:
- 13607 strings out of 494299
- 196135 string characters out of 6163395
+ 13599 strings out of 494299
+ 196051 string characters out of 6163395
  425567 words of memory out of 5000000
  16689 multiletter control sequences out of 15000+600000
- 89284 words of font info for 91 fonts, out of 8000000 for 9000
+ 88858 words of font info for 87 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  43i,12n,67p,784b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -688,7 +681,7 @@ nts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmro8.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Denis_Kotnik_CV_EN.pdf (4 pages, 2225504 bytes).
+Output written on Denis_Kotnik_CV_EN.pdf (4 pages, 2225725 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  132 compressed objects within 2 object streams

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.8)  29 NOV 2020 10:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.8)  2 DEC 2020 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -542,7 +542,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvtitlepicturebox=\box30
-<pictures/Denis_2020.jpg, id=7, 979.7403pt x 967.6953pt>
+<pictures/Denis_2020.jpg, id=63, 979.7403pt x 967.6953pt>
 File: pictures/Denis_2020.jpg Graphic file (type jpg)
 <use pictures/Denis_2020.jpg>
 Package pdftex.def Info: pictures/Denis_2020.jpg  used on input line 66.
@@ -666,24 +666,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
  (./Denis_Kotnik_CV_SL.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
-
-
-Package rerunfilecheck Warning: File `Denis_Kotnik_CV_SL.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Denis_Kotnik_CV_SL.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  D1247F4E7BA4D0D2D39FE827FCB81BBA;2312.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `Denis_Kotnik_CV_SL.out' has not changed.
+(rerunfilecheck)             Checksum: D1247F4E7BA4D0D2D39FE827FCB81BBA;2312.
  ) 
 Here is how much of TeX's memory you used:
- 13596 strings out of 494299
- 196012 string characters out of 6163395
- 425560 words of memory out of 5000000
- 16674 multiletter control sequences out of 15000+600000
+ 13611 strings out of 494299
+ 196183 string characters out of 6163395
+ 425562 words of memory out of 5000000
+ 16689 multiletter control sequences out of 15000+600000
  89450 words of font info for 93 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  43i,12n,67p,784b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -697,10 +687,10 @@ nts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmro8.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Denis_Kotnik_CV_SL.pdf (4 pages, 2225860 bytes).
+Output written on Denis_Kotnik_CV_SL.pdf (4 pages, 2227157 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 155 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
- 27654 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 27766 words of extra memory for PDF output out of 29859 (max. 10000000)
 
