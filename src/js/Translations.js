@@ -42,7 +42,7 @@ export const translations = {
         <br>
         V tem filozofovem povabilu obstaja nekaj, zaradi česar je nadvse smiselno dajati prednost najzahtevnejšim in najnapornejšim potem pred najlažjimi in najlagodnejšimi.
         <br><br>
-        Sokrat je bil obsojen na smrt, ker je pokvaril mladino. To pomeni, da je ljudi navdušil nad razmišljanjem, zaradi česar so podvomili v življenje, ki ga vodijo denar, moč in užitek. Ker so odprtomiselni, pogumni in vztrajni ljudje nevarni za hierarhije, je moral filozof umreti. Filozofija za današnji čas je tudi natanko to, kar je vedno za nek čas bila. Filozofija je nevarna. Kot ljubezen, ki pa je najmočnejša partikularna izkušnja univerzalnega.
+        Sokrat je bil obsojen na smrt, ker je pokvaril mladino. To pomeni, da je ljudi navdušil nad razmišljanjem, zaradi česar so podvomili v življenje, ki ga vodijo denar, moč in užitek. Ker so odprtomiselni, pogumni in vztrajni ljudje nevarni za hierarhije, je moral filozof umreti. Filozofija za današnji čas pa je tudi natanko to, kar je vedno za nek čas bila. Filozofija je nevarna. Kot ljubezen, ki pa je najmočnejša partikularna izkušnja univerzalnega.
         <br><br>
         <i>Če ljubezni ne postaviš na prvo mesto, ne boš nikoli vedel, kaj je filozofija. –Alain Badiou</i>
         `
