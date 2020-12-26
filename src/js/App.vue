@@ -57,6 +57,22 @@
 				</div>
 			</div>
 		</section>
+		<!-- Philosophy -->
+		<section v-show="selectedLang == 'sl'" class="section zero-top-padding">
+			<div class="container">
+				<div class="section">
+					<h1 class="title is-4">O potrebi po filozofiji v današnjem času</h1>
+					<div class="columns">
+						<div class="column is-two-thirds">
+							<p v-html="philosophy[selectedLang]"></p>
+						</div>
+						<div class="column has-text-centered">
+							<img :src="imagePhilosophy" alt="Denis Kotnik">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="container">
@@ -76,7 +92,8 @@ export default {
 	  // Merge two dictionaries: Object.assign({}, a, b);
 	  return Object.assign({}, translations, {
 		  selectedLang: 'sl',
-		  imageDenis: require('../images/me_bw.jpg')
+		  imageDenis: require('../images/me_bw.jpg'),
+		  imagePhilosophy: require('../images/philosophy.jpg')
 		  //cvSl: require('../Latex_CV_SL/Denis_Kotnik_CV_SL.pdf')
 	  });
   },

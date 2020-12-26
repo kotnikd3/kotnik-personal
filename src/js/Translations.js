@@ -34,5 +34,17 @@ export const translations = {
         V dobi (dis)informacij, ko se mnenja generirajo na podlagi mnenj, sta raziskovanje in razmišljanje še posebej pomembna. Vedno je bilo tako. Namreč le razmišljanje lahko pripelje do tega, da se univerzalnost izrazi skozi naše partikularnosti. Le razmišljanje ustvarja mejo med ljubiteljem mnenj in ljubiteljem modrosti in ta meja je v nas samih. Le razmišljanje omejuje in posledično osvobaja človeka (saj je svoboda omejena z resnico), ustvarja ter ločuje dobro in zlo, ki sta tudi v nas samih.
         <br><br>
         Berem Dušana Rutarja. <i>Ptica na nebu ni svobodna; ta je le ujetnica svojih nagonov. Svoboden je človek, ko razume in dojame, kakšno je njegovo poslanstvo na tem svetu.</i>`
+    },
+    philosophy: {
+        'sl' : `Filozofija (<i>filia</i> oz. ljubezen in <i>sofia</i> oz. modrost) je diskurz, v katerem prevladujejo predvsem dobra vprašanja. Ni priviligirana le za bogate, izobražene, vplivne, slavne, študente filozofije itd. temveč za vse, ki so zmožni za razmišljanje, s tem pa tudi za resnico. Njen ultimativni cilj je jasno razmejevanje med mnenji in resnico. Ne vodi v še več mnenj, v še več blaga na svobodnih trgih ali v reševanje kapitalizma. Filozofija vodi v demokratično (demokracija ne tolerira mnenj, saj so ta nasprotna resnici) egalitarno (egalitarnost kot odsotnost kakršnih koli oblik dominance v človeških odnosih) življenje v svetu, ki ni v privatni lasti.
+        <br><br>
+        Niso le dobra filozofska vprašanja tista, ki ljudem odpirajo prostor za razmislek o <i>pravem življenju</i>. Pomemba so tudi povabila. Pogumen filozof ljudi k univerzalnem vabi tudi s tem, kar je, kako in za kaj živi (ali umre?). Vabi k življenju, ki ni le še ena izmed mnogokrat prehojenih poti in za katerega se splača živeti. Vabi k zavračanju tistega, kar človek domnevno je, kot pravi Foucault. Vabi k osvobajanju od idej, ki obvladujejo svet in k osvoboditvi pridobljenih zunanjih vzorov sreče, ki so splošne narave in so običajno nezdružljivi s posameznikovo osebnostjo, kot pravi Galimberti. Vabi k etični dolžnosti posameznika, ki jo ima Aristotel za najvišji življenjski smoter. 
+        <br>
+        V tem filozofovem povabilu obstaja nekaj, zaradi česar je nadvse smiselno dajati prednost najzahtevnejšim in najnapornejšim potem pred najlažjimi in najlagodnejšimi.
+        <br><br>
+        Sokrat je bil obsojen na smrt, ker je pokvaril mladino. To pomeni, da je ljudi navdušil nad razmišljanjem, zaradi česar so podvomili v življenje, ki ga vodijo denar, moč in užitek. Ker so odprtomiselni, pogumni in vztrajni ljudje nevarni za hierarhije, je moral filozof umreti. Filozofija za današnji čas je tudi natanko to, kar je vedno za nek čas bila. Filozofija je nevarna. Kot ljubezen, ki pa je najmočnejša partikularna izkušnja univerzalnega.
+        <br><br>
+        <i>Če ljubezni ne postaviš na prvo mesto, ne boš nikoli vedel, kaj je filozofija. –Alain Badiou</i>
+        `
     }
 };
