@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.8)  7 DEC 2020 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.8)  27 DEC 2020 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9,8 +9,8 @@ Babel <3.18> and hyphenation patterns for 31 language(s) loaded.
 (./moderncv.cls
 Document Class: moderncv 2012/10/31 v1.2.0 modern curriculum vitae and letter d
 ocument class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
@@ -496,12 +496,12 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 * \topmargin=-24.76532pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -532,11 +532,9 @@ LaTeX Info: Redefining \nameref on input line 64.
 \pagenumberwidth=\skip68
 \makecvtitledetailsbox=\box29
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 66.
+(Font)              <9> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 66.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 66.
+(Font)              <6> on input line 66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
@@ -597,8 +595,8 @@ Package babel Info: Redefining slovene shorthand "|
 (babel)             in language  on input line 148.
 
 Underfull \hbox (badness 10000) in paragraph at lines 163--163
-[]$\T1/lmtt/m/n/10.95 https : / / zenodo . org / record / 1485684 / files / Con
-tribution _ 11014 _
+[]$\T1/lmtt/m/n/10 https : / / zenodo . org / record / 1485684 / files / Contri
+bution _ 11014 _ fullpaper .
  []
 
 
@@ -614,6 +612,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--163
 
 Underfull \hbox (badness 10000) in paragraph at lines 163--163
 
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 163--163
+\T1/lmr/m/n/10 (+20) My work also in-clu-des close co-o-pe-ra-tion with pro-duc
+t users, in-clu-ding the
  []
 
 Package babel Info: Redefining slovene shorthand "|
@@ -664,11 +668,11 @@ Package rerunfilecheck Info: File `Denis_Kotnik_CV_EN.out' has not changed.
 (rerunfilecheck)             Checksum: C0111B7B2475445478503702ABBF4985;2531.
  ) 
 Here is how much of TeX's memory you used:
- 13601 strings out of 494299
- 196075 string characters out of 6163395
- 425567 words of memory out of 5000000
- 16689 multiletter control sequences out of 15000+600000
- 88941 words of font info for 88 fonts, out of 8000000 for 9000
+ 13603 strings out of 494299
+ 195918 string characters out of 6163395
+ 425480 words of memory out of 5000000
+ 16680 multiletter control sequences out of 15000+600000
+ 85456 words of font info for 88 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  43i,12n,67p,784b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -677,14 +681,16 @@ hare/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
 i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmro8.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Denis_Kotnik_CV_EN.pdf (4 pages, 2225752 bytes).
+nts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmro17.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmro8.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/mar
+vosym.pfb>
+Output written on Denis_Kotnik_CV_EN.pdf (4 pages, 2259694 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 163 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
- 27766 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 27254 words of extra memory for PDF output out of 29859 (max. 10000000)
 
