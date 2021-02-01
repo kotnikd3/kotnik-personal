@@ -20,5 +20,5 @@ npm run production
 ```
 
 ## Hosting
->- 2019: neoserv -> domovanje  
->- 2020: domovanje -> neoserv
+>- 2020: domovanje -> neoserv  
+>- 2021: neoserv -> domovanje
