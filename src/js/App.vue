@@ -3,7 +3,7 @@
 		<!-- Introduction -->
 		<section class="section">
 			<div class="container">
-				<div class="columns">
+				<div class="columns is-vcentered">
 					<!-- Column -->
 					<div class="column">
 						<section class="section zero-top-padding">
@@ -61,7 +61,7 @@
 		<section v-show="selectedLang == 'sl'" class="section zero-top-padding">
 			<div class="container">
 				<div class="section">
-					<h1 class="title is-4">O potrebi po filozofiji v današnjem času</h1>
+					<h1 class="title is-4">O potrebi po filozofiji</h1>
 					<div class="columns">
 						<div class="column is-two-thirds">
 							<p v-html="philosophy[selectedLang]"></p>
@@ -70,6 +70,15 @@
 							<img :src="imagePhilosophy" alt="Denis Kotnik">
 						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Capitalism -->
+		<section v-show="selectedLang == 'sl'" class="section zero-top-padding">
+			<div class="container">
+				<div class="section">
+					<h1 class="title is-4">Filozof proti kapitalizmu</h1>
+						<p v-html="capitalism[selectedLang]"></p>
 				</div>
 			</div>
 		</section>
@@ -92,7 +101,7 @@ export default {
 	  // Merge two dictionaries: Object.assign({}, a, b);
 	  return Object.assign({}, translations, {
 		  selectedLang: 'sl',
-		  imageDenis: require('../images/me_bw.jpg'),
+		  imageDenis: require('../images/me_2.jpg'),
 		  imagePhilosophy: require('../images/philosophy.jpg')
 		  //cvSl: require('../Latex_CV_SL/Denis_Kotnik_CV_SL.pdf')
 	  });

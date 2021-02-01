@@ -46,5 +46,8 @@ export const translations = {
         <br><br>
         <i>Če ljubezni ne postaviš na prvo mesto, ne boš nikoli vedel, kaj je filozofija. –Alain Badiou</i>
         `
+    },
+    capitalism: {
+        'sl' : `Človek po svoji naravi ne želi biti upravljan, saj je svoboden in zna misliti. Misel je sama po sebi egalitarna, namreč ne prenese, da bi z njo kdorkoli upravljal. Misliti pomeni zelo konkretno in zelo praktično zagovarjati egalitarnost, ki je trn v peti kapitalizmu. V njem <i>upravljalci človeških virov (profita)</i> oz. <i>upravljalci medsebojnih odnosov</i> oz. <i>managerji</i> tiste pod njimi upravljajo (upravljanje nujno vsebuje tudi nadzorovanje) tako, da jih s <i>poslovnimi skrivnostmi</i> omejujejo pri razmišljanju (npr. <i>spodnji</i> ne smejo vedeti, saj njihova inteligenca ne premore dovolj odgovornosti), saj slednje nujno vodi v <i>univerzalni dvom</i> ter težnjo po egalitarnosti. Takšno upravljanje v kapitalizmu ima natanko en cilj. <i>Več v nastajanju ...</i>`
     }
 };
