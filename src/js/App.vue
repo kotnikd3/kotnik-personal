@@ -86,7 +86,7 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="content has-text-centered">
-					<p class="has-text-grey">Denis Kotnik<span class="icon"><i class="far fa-copyright fa-flip-horizontal"></i></span>2020</p>
+					<p class="has-text-grey">Denis Kotnik<span class="icon"><i class="far fa-copyright fa-flip-horizontal"></i></span>2021</p>
 				</div>
 			</div>
 		</footer>
