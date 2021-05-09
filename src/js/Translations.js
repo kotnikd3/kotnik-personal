@@ -64,7 +64,7 @@ export const translations = {
         Berem filozofa Karla Marxa. <i>Ko se bodo delavci resnično zavedali svoje vloge, bo kapitalizem propadel.</i>`
     },
     'loneliness' : {
-        'sl' : `Tu bom napisal nekaj malega o gurujih, razsvetljencih, bioenergetikih in ostalih postmodernističnih upravljalcih kozmičnih energij ... o kopičenju modrosti ... o socialnih omrežjih polnih kratkih nasvetov ... o tem, kako se lahko človeku zmeša, če želi osmisliti le delček vseh informacij, na katere naleti tako ali drugače ... in o tem, kako je človek v morju mnenj disorientiran.`
+        'sl' : `Tu bom napisal nekaj malega o gurujih, razsvetljencih, bioenergetikih in ostalih postmodernističnih upravljalcih kozmičnih energij ... o kopičenju modrosti ... o socialnih omrežjih polnih kratkih nasvetov ... o tem, kako se lahko človeku zmeša, če želi osmisliti že delček vseh informacij, na katere naleti tako ali drugače ... in o tem, kako je človek v morju mnenj disorientiran.`
     },
     'psichotherapy' : {
         'sl' : `Človek je lahko ranjen na način, da ga čustva odvračajo od resnice - npr. od nečesa, kar se je zares (ali le v njegovi glavi - miselni realnosti) zgodilo v njegovi preteklosti, čeprav se tega ne spomni, se ne želi spomniti ali se ne zaveda (obstaja pa v njegovem nezavednem, v stanju <i>represije</i>). Resnica je lahko boleča, zato je narava ljudi obdarila s t.i. obrambnimi mehanizmi, o katerih pišeta Sigmund Freud in njegova hčerka Ana.
