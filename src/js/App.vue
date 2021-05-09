@@ -82,6 +82,24 @@
 				</div>
 			</div>
 		</section>
+		<!-- Loneliness vs -->
+		<section v-show="selectedLang == 'sl'" class="section zero-top-padding">
+			<div class="container">
+				<div class="section">
+					<h1 class="title is-4">Samota proti osamljenosti</h1>
+						<p v-html="loneliness[selectedLang]"></p>
+				</div>
+			</div>
+		</section>
+		<!-- Psichotherapy as philosophy-->
+		<section v-show="selectedLang == 'sl'" class="section zero-top-padding">
+			<div class="container">
+				<div class="section">
+					<h1 class="title is-4">Psihoterapija kot zastopnica filozofije</h1>
+						<p v-html="psichotherapy[selectedLang]"></p>
+				</div>
+			</div>
+		</section>
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="container">

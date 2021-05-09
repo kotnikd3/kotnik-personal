@@ -48,6 +48,28 @@ export const translations = {
         `
     },
     capitalism: {
-        'sl' : `Človek po svoji naravi ne želi biti upravljan, saj je svoboden in zna misliti. Misel je sama po sebi egalitarna, namreč ne prenese, da bi z njo kdorkoli upravljal. Misliti pomeni zelo konkretno in praktično zagovarjati egalitarnost, ki je trn v peti kapitalizmu. V njem <i>upravljalci človeških virov (profita)</i> oz. <i>upravljalci medsebojnih odnosov</i> oz. <i>manedžerji</i> tiste pod njimi upravljajo (zato nujno tudi nadzorujejo) tako, da jih npr. s <i>poslovnimi skrivnostmi</i> omejujejo pri raziskovanju in razmišljanju (npr. <i>spodnji</i> nečesa ne smejo vedeti, češ da z njihovo inteligenco ne premorejo dovolj odgovornosti), saj to dvoje nujno vodi v <i>univerzalni dvom</i> ter težnjo po egalitarnosti. Kapitalisti si prizadevajo cel svet spremeniti v državo (v procesu imenovanem <i>globalizacija</i>), ki ji vlada natanko en zakon: <i>zakon profitabilnosti</i>, ki je visoko nad zakoni etike in morale. <i>Več v nastajanju ...</i>`
+        'sl' : `Obstaja trg, na katerem je mogoče kupiti delovno silo. Kupljena delovna sila pomeni kupljenega človeka, saj ne obstaja delovna sila brez človeka. Ta za kupca predstavlja <i>človeški vir</i> (angl. <i>human resource</i>) vrednosti. Kupec lahko človeku, ki ga je kupil, odvzema več vrednosti, kot pa mu jo vrača (ni pa nujno). Da to počne, mora z njim upravljati - ko je človek kupljen, je tudi upravljan. Upravljan je s strani upravljalcev človeških virov (angl. <i>human resouce management</i>) oz. menedžerjev, ki od neke točke upravljajo tudi medsebojne odnose in eksistence upravljanih, saj je eksistenca tudi del vsakega človeka in vsak človek je v medsebojnih odnosih.
+        <br><br>
+        <i>Kako so ljudje upravljani?</i>
+        <br>
+        Obstajajo družbeno gospodarske ureditve, ki težijo k takšnemu upravljanju ljudi, ki iz njih izvablja najboljše, inteligenco, mentalno-kognitivne in fizične sposobnosti ter z dobrini nameni, v dobrobit naravi, skupnosti, ustvarjanju trajnostne prihodnosti, prispevanju k znanosti, varnosti, zdravju ljudi itd., kjer se upravljanje lahko spremeni v sodelovanje.
+        Kapitalizem ne spada v to skupino, saj deluje le za elito, ljudje pa na žalost še vedno verjamejo, da bo nekega dne začel delovati tudi za njih. V kapitalizmu kapitalisti kupujejo delavce in z njimi upravljajo na natanko en sam način - tako, da mu prinašajo profite. Zadovoljstvo ter blagostanje ljudi, etika, morala in resnica so v primerjavi s kopičenjem profita nepomembne ali celo nezaželjene zadeve. Ko se pred naftnimi koorporacijami pojavijo znanstveniki z objektivnimi in empiričnimi dokazi, da črpanje nafte na dolgi rok ni dobro za nikogar, so preslišani oz. na koncu se ne spremeni nič. V svetu, kjer je vsak individualist osamljeno zase, kjer so zakoni skupnosti le omejitev do še več profita, si kapitalisti prizadevajo cel svet spremeniti (v procesu imenovanem <i>globalizacija</i>) v tako skupnost, ki ji vlada natanko en zakon: zakon profitabilnosti.
+        <br><br>
+        <i>Do katere mere so ljudje pripravljeni biti upravljani?</i>
+        <br>
+        Pisal sem že o tem, da za <i>zgornje</i> ni dobro, da <i>spodnji</i> preveč vedo, namreč resnica je v nasprotju z ne-egalitarnostjo oz. hiearhičnimi medsebojnimi odnosi, na katerih temelji kapitalizem. V njih se na neki točki vsak prepozna ali kot hlapec ali pa kot gospodar. Ko zgornji dobijo občutek, da bi jim vednost spodnjih lahko zmanjšala profit, spodnje omejijo pri raziskovanju in razmišljanju - ustvarijo <i>poslovne skrivnosti</i>.
+        <br><br>
+        Človek po svoji naravi ne želi biti upravljan (tudi če je notranje poškodovan in se s tem sam ne strinja), saj je svoboden, zna misliti in slediti idejam - če je kaj značilno za človeka, je to to. Misliti pomeni zelo konkretno in praktično zagovarjati egalitarnost, saj je misel sama po sebi egalitarna, namreč ne prenese, da bi z njo kdorkoli upravljal. Spodnji se zgornjemu preda, ko ne želi več zastopati egalitarnosti, radikalnosti, emancipatoričnosti, univerzalnega dvoma, kritičnosti ... ko ne želi več misliti. Vztrajanje v resnici ni profitabilno, zato je filozofija kontradiktorna kapitalizmu.
+        <br><br>
+        Berem filozofa Karla Marxa. <i>Ko se bodo delavci resnično zavedali svoje vloge, bo kapitalizem propadel.</i>`
+    },
+    'loneliness' : {
+        'sl' : `Tu bom napisal nekaj malega o gurujih, razsvetljencih, bioenergetikih in ostalih postmodernističnih upravljalcih kozmičnih energij ... o kopičenju modrosti ... o socialnih omrežjih polnih kratkih nasvetov ... o tem, kako se lahko človeku zmeša, če želi osmisliti le delček vseh informacij, na katere naleti tako ali drugače ... in o tem, kako je človek v morju mnenj disorientiran.`
+    },
+    'psichotherapy' : {
+        'sl' : `Človek je lahko ranjen na način, da ga čustva odvračajo od resnice - npr. od nečesa, kar se je zares (ali le v njegovi glavi - miselni realnosti) zgodilo v njegovi preteklosti, čeprav se tega ne spomni, se ne želi spomniti ali se ne zaveda (obstaja pa v njegovem nezavednem, v stanju <i>represije</i>). Resnica je lahko boleča, zato je narava ljudi obdarila s t.i. obrambnimi mehanizmi, o katerih pišeta Sigmund Freud in njegova hčerka Ana.
+        <br>
+        Tu bom malce napisal o tem, zakaj ljudje ne moremo sami videti resnico in zakaj za svoj obstoj nujno potrebujemo druge ljudi, katerim zaupamo. Pisal bom tudi o nezavednem trpljenju, ki lahko na nas vpliva, pa če hočemo ali ne. Napisal bom tudi nekaj malega o treh realnostih: matematični, miselni in fizični. In o skrivnostih, ki povezujejo te tri realnosti. Morda omenim teorijo travme C. G. Junga. 
+        `
     }
 };
