@@ -1,22 +1,24 @@
 # www.kotnik.si
 
 ## About the project
-My web page repository build with Vue.js 2.x and Bulma.  
+My web page repository build with Vue.js 3 and Bulma.  
 Free to use.
 
-> 
-## Build Setup
 
-``` bash
-# install dependencies
+## Project setup
+```
 npm install
+```
 
-# serve with hot reload at localhost:8080
-npm run development
-npm run hot
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-# build for production with minification
-npm run production
+### Compiles and minifies for production
+```
+npm run build
+cp CNAME docs/
 ```
 
 ## Hosting
