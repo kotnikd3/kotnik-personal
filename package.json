@@ -1,36 +1,43 @@
 {
   "name": "kotnikd3.github.io",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "My personal website",
-  "scripts": {
-    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --open --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --open --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "npm run development -- --watch",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-  },
+  "author": "Denis Kotnik",
+  "license": "copyleft",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kotnikd3/kotnikd3.github.io.git"
   },
   "keywords": [
     "website",
-    "personal"
+    "personal",
+    "denis",
+    "kotnik",
+    "denis kotnik"
   ],
-  "author": "Denis Kotnik",
-  "license": "copyleft",
-  "devDependencies": {
-    "cross-env": "^7.0.2",
-    "laravel-mix": "^5.0.7",
-    "laravel-mix-purgecss": "^5.0.0",
-    "resolve-url-loader": "^3.1.1",
-    "sass": "^1.27.0",
-    "sass-loader": "^10.0.3",
-    "vue-template-compiler": "^2.6.12"
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "@creativebulma/bulma-tooltip": "^1.2.0",
-    "@fortawesome/fontawesome-free": "^5.15.1",
-    "bulma": "^0.9.1",
-    "vue": "^2.6.11"
-  }
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
+    "bulma": "^0.9.3",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0-beta.2",
+    "@vue/cli-service": "~5.0.0-beta.2",
+    "@vue/compiler-sfc": "^3.0.4",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
