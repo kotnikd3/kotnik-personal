@@ -40,7 +40,7 @@
 						<p v-html="introduction[selectedLang]"></p>
 				 	</div>
 				 	<div class="column has-text-centered">
-						<img :src="imageDenis" alt="Denis Kotnik">
+						<img src="./assets/denis_kotnik.jpg" alt="Denis Kotnik">
 					</div>
 				</div>
 			</div>
@@ -48,20 +48,20 @@
 		<!-- Opinions -->
 		<section v-show="selectedLang == 'sl'" class="section">
 			<div class="container">
-				<h1 class="title is-4">O mnenjih in resnici</h1>
+				<h4 class="title is-4">O mnenjih in resnici</h4>
 				<p v-html="opinions[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Philosophy -->
 		<section v-show="selectedLang == 'sl'" class="section">
 			<div class="container">
-				<h1 class="title is-4">O potrebi po filozofiji</h1>
+				<h4 class="title is-4">O potrebi po filozofiji</h4>
 				<div class="columns">
 					<div class="column is-two-thirds">
 						<p v-html="philosophy[selectedLang]"></p>
 					</div>
 					<div class="column has-text-centered">
-						<img :src="imagePhilosophy" alt="philosophy">
+						<img src="./assets/philosophy.jpg" alt="philosophy">
 					</div>
 				</div>
 			</div>
@@ -69,14 +69,14 @@
 		<!-- Capitalism -->
 		<section v-show="selectedLang == 'sl'" class="section">
 			<div class="container">
-				<h1 class="title is-4">Filozof proti kapitalizmu</h1>
+				<h4 class="title is-4">Filozof proti kapitalizmu</h4>
 				<p v-html="capitalism[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Postmodernism -->
 		<section v-show="selectedLang == 'sl'" class="section">
 			<div class="container">
-				<h1 class="title is-4">O postmodernizmu</h1>
+				<h4 class="title is-4">O postmodernizmu</h4>
 				<p v-html="postmodernism[selectedLang]"></p>
 			</div>
 		</section>
@@ -91,8 +91,6 @@
 
 <script>
 import { translations } from './Translations.js';
-import imageDenis from './assets/denis_kotnik.jpg';
-import imagePhilosophy from './assets/philosophy.jpg';
 
 export default {
 	name: 'App',
@@ -100,8 +98,6 @@ export default {
 		// Merge two dictionaries: Object.assign({}, a, b);
 		return Object.assign({}, translations, {
 			selectedLang: 'sl',
-			imageDenis: imageDenis,
-			imagePhilosophy: imagePhilosophy
 		});
 	},
 	methods: {
