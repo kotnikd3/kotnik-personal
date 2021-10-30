@@ -22,7 +22,13 @@ $link-hover: $color-blue-black !default;
 
 img {
     width: 80%;
+    border-radius: 5%;
 }
+
+figure > img {
+    border-radius: 100%;
+}
+
 
 // Import only what is needed ...
 @import "~bulma/sass/utilities/_all";

@@ -45,16 +45,31 @@
 				</div>
 			</div>
 		</section>
-		<!-- Opinions -->
+		<!-- Content -->
 		<section v-show="selectedLang == 'sl'" class="section">
 			<div class="container">
+				<h4 class="title is-4">Kazalo</h4>
+				<div class="content">
+					<ol>
+						<li><a href="#opinions">O mnenjih in resnici</a></li>
+						<li><a href="#philosophy">O potrebi po filozofiji</a></li>
+						<li><a href="#capitalism">Filozof proti kapitalizmu</a></li>
+						<li><a href="#postmodernism">O postmodernizmu</a></li>
+						<li><a href="#selfDevelopment">O delu na sebi</a></li>
+					</ol>
+				</div>
+			</div>
+		</section>
+		<!-- Opinions -->
+		<section v-show="selectedLang == 'sl'" class="section">
+			<div id="opinions" class="container">
 				<h4 class="title is-4">O mnenjih in resnici</h4>
 				<p v-html="opinions[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Philosophy -->
 		<section v-show="selectedLang == 'sl'" class="section">
-			<div class="container">
+			<div id="philosophy" class="container">
 				<h4 class="title is-4">O potrebi po filozofiji</h4>
 				<div class="columns">
 					<div class="column is-two-thirds">
@@ -68,16 +83,23 @@
 		</section>
 		<!-- Capitalism -->
 		<section v-show="selectedLang == 'sl'" class="section">
-			<div class="container">
+			<div id="capitalism" class="container">
 				<h4 class="title is-4">Filozof proti kapitalizmu</h4>
 				<p v-html="capitalism[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Postmodernism -->
 		<section v-show="selectedLang == 'sl'" class="section">
-			<div class="container">
+			<div id="postmodernism" class="container">
 				<h4 class="title is-4">O postmodernizmu</h4>
 				<p v-html="postmodernism[selectedLang]"></p>
+			</div>
+		</section>
+		<!-- Self development -->
+		<section v-show="selectedLang == 'sl'" class="section">
+			<div id="selfDevelopment" class="container">
+				<h4 class="title is-4">O delu na sebi</h4>
+				<p v-html="selfDevelopment[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Footer -->
