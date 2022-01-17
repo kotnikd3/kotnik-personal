@@ -22,5 +22,5 @@ cp CNAME docs/
 ```
 
 ## Hosting
->- 2020: domovanje -> neoserv  
 >- 2021: neoserv -> domovanje
+>- 2022: domovanje -> neoserv
