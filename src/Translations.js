@@ -5,10 +5,10 @@ export const translations = {
         'nl' : 'Over mij'
     },
     introduction : {
-        'sl' : 'Moje ime je Denis Kotnik, živim na Nizozemskem, prihajam pa iz Slovenije. Po izobrazbi sem računalničar, vse bolj pa me zanimata tudi filozofija in psihologija.<br><br>\
-        Navdušuje me ideja razsvetljenstva ter ljudje, ki jo zastopajo s svojim življenjem in ki iščejo samega sebe natanko zato, da bi okrepili dober, pristni, avtentični odnos do drugega. Rad prebiram besede avtorjev, kot so Sokrat, Karl Marx, Carl G. Jung, Sigmund Freud, Alain Badiou, René Descartes in drugih.<br><br>\
-        Na tej spletni strani sem se predstavil, v prihodnje pa bi rad parafraziral o idejah, do katerih sem prišel z branjem in razmišljanjem. Niso moja last, namreč idej si ne more lastiti nihče. <i>Življenje</i> je druga beseda za <i>spremembo</i>, sebe pa sem v dobrem pogovoru pripravljen postaviti pod vprašaj, zato bom zapisano s časom dopolnjeval, morda spreminjal.<br><br>\
-        Upam, da bo vse to le povabilo k razmišljanju o dobrem.',
+        'sl' : 'Moje ime je Denis Kotnik, živim v Utrechtu na Nizozemskem, prihajam pa iz Slovenije. Po izobrazbi sem računalničar, vse bolj pa me zanimata tudi filozofija in psihologija.<br><br>\
+        V nekaj-letnem procesu razvojno-analitično usmerjene psihoterapije sem spoznal, da so čustva tista, ki človeku dajejo pogum, da zastopa določene ideje. Navdušuje me ideja razsvetljenstva ter ljudje, ki jo s svojim življenjem tudi živijo in ki iščejo samega sebe zato, da bi okrepili dober, pristni, avtentični odnos do drugega. Blizu so mi avtorji, kot so Sokrat, Karl Marx, Sigmund Freud, Alain Badiou, René Descartes in drugi.<br><br>\
+        Tu bom poljudno parafraziral o nekaterih idejah. Niso moja last, namreč idej si ne more lastiti nihče. Sebe sem v dobrem pogovoru pripravljen postaviti pod vprašaj, zato bom zapisano dopolnjeval.<br><br>\
+        Upam, da bo vse to le povabilo k razmišljanju.',
 
         'en' : 'My name is Denis Kotnik, I live in the Netherlands and I come from Slovenia. I hold a master\'s degree in computer science and more and more I\'m interested in philosophy and psychology.<br><br>\
         I\'m fascinated by the idea of the Enlightenment and the people who represent it with their lives and who seek themselves precisely in order to strengthen a good, genuine, authentic relationship with another. I like to read the words of authors like Socrates, Karl Marx, Carl G. Jung, Sigmund Freud, Alain Badiou, René Descartes and others.<br><br>\
@@ -89,5 +89,8 @@ export const translations = {
         <i>Kaj lahko človek, ki želi delati na sebi, pričakuje od nekoga, ki je že nekaj naredil na sebi? Kaj lahko človek, ki se želi spremeniti ali ki trpi, pričakuje od nekoga, za katerega se predpostavlja, da nekaj ve (npr. psihoanalitik ali psihoterapevt)?</i> Edini pravilni odgovor na to vprašanje je pogovor o resnici. Npr. o trpljenju, življenju, odnosih, problemih, depresiji, tesnobi, okoljih, starših, nesrečah in krivičnem ter odgovore na vprašanja, kot so <i>"Zakaj trpim?", "Kako to, da si ne morem želeti, kar hočem?", "Zakaj nekaj ves čas počnem, čeprav vem, da to ni dobro zame?", "Zakaj se obnašam, kot da nimam izbire?", "Zakaj sem tak, kot sem?", "Kako vem, da nekaj vem?", "Zakaj govorim eno, počnem pa drugo?"</i> itd. Ta, za katerega se predpostavlja, da nekaj o nečem ve, resnice ne more artikulirati v obliki nasvetov, priporočil ali navodil. Resnica se artikulira v pogovoru z dobrimi asokratskimi vprašanji, ki traja in v katerem tisti, ki se želi spremeniti, tudi vztraja ter pod vprašaj postavlja svojo lastno identiteto. Ta, za katerega se predpostavlja, da nekaj ve, npr. o obrambnih mehanizmih, običajno naslavlja trpljenje v tistem, ki se želi spremeniti. Torej pripovedovanje resnice kot proces; kot nekaj, kar traja. Tako, kot so trajali pogovori Sokrata z državljani, ko se je skušal prepričati o svoji nevednosti, ki je posebna oblika vednosti. <i>"Vem, da nič ne vem."</i>
         <br><br>
         Foucalt govori o etiki subjektivnosti kot zmožnosti človeškega bitja, njegove subjektivnosti, da spozna resnico o sebi, o svoji subjektivnosti. Če posameznik poskuša pripovedovati resnico o svoji subjektivnosti, ipso facto poskuša artikulirati resnico o svoji želji in resnico o medsebojnih odnosih. Brez etike subjektivnosti ni osebnostne rasti. Torej osebnostno rasteš le, če te zanima resnica lastne subjektivnosti in okolja, v kateri je nastala. Etika subjektivnosti je v temelju za to, kar imenujemo dobro, pravi Dušan Rutar.`
+    },
+    freeWill: {
+        'sl': `V nastajanju ...`
     }
 };
