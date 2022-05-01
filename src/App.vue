@@ -37,8 +37,7 @@
 			<div class="container">
 				<div class="columns is-vcentered">
 					<div class="column">
-						<h1 class="title">Denis Kotnik</h1>
-						<h2 class="subtitle" v-text="about[selectedLang]"></h2>
+						<h4 class="title is-4" v-text="about[selectedLang]"></h4>
 						<p v-html="introduction[selectedLang]"></p>
 					</div>
 					<div class="column has-text-centered">
