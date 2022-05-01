@@ -5,8 +5,8 @@ export const translations = {
         'nl' : 'Over mij'
     },
     introduction : {
-        'sl' : 'Moje ime je Denis Kotnik, živim v Utrechtu na Nizozemskem, prihajam pa iz Slovenije. Po izobrazbi sem računalničar, vse bolj pa me zanimata tudi filozofija in psihologija.<br><br>\
-        V nekaj-letnem procesu razvojno-analitično usmerjene psihoterapije sem spoznal, da so čustva tista, ki človeku dajejo pogum, da zastopa določene ideje. Navdušuje me ideja razsvetljenstva ter ljudje, ki jo s svojim življenjem tudi živijo in ki iščejo samega sebe zato, da bi okrepili dober, pristni, avtentični odnos do drugega. Blizu so mi avtorji, kot so Sokrat, Karl Marx, Sigmund Freud, Alain Badiou, René Descartes in drugi.<br><br>\
+        'sl' : 'Moje ime je Denis Kotnik, živim v Utrechtu na Nizozemskem, prihajam pa iz Slovenije. Po izobrazbi sem računalničar, vse bolj pa me zanimata tudi filozofija in psihoanaliza.<br><br>\
+        Vem, da so čustva tista, ki človeku dajejo pogum, da zastopa določene ideje. Navdušuje me ideja razsvetljenstva ter ljudje, ki jo s svojim življenjem tudi živijo in ki iščejo samega sebe zato, da bi okrepili dober, pristni, avtentični odnos do drugega. Blizu so mi avtorji, kot so Sokrat, Karl Marx, Sigmund Freud, Alain Badiou, René Descartes in drugi.<br><br>\
         Tu bom poljudno parafraziral o nekaterih idejah. Niso moja last, namreč idej si ne more lastiti nihče. Sebe sem v dobrem pogovoru pripravljen postaviti pod vprašaj, zato bom zapisano dopolnjeval.<br><br>\
         Upam, da bo vse to le povabilo k razmišljanju.',
 
@@ -91,6 +91,21 @@ export const translations = {
         Foucalt govori o etiki subjektivnosti kot zmožnosti človeškega bitja, njegove subjektivnosti, da spozna resnico o sebi, o svoji subjektivnosti. Če posameznik poskuša pripovedovati resnico o svoji subjektivnosti, ipso facto poskuša artikulirati resnico o svoji želji in resnico o medsebojnih odnosih. Brez etike subjektivnosti ni osebnostne rasti. Torej osebnostno rasteš le, če te zanima resnica lastne subjektivnosti in okolja, v kateri je nastala. Etika subjektivnosti je v temelju za to, kar imenujemo dobro, pravi Dušan Rutar.`
     },
     freeWill: {
-        'sl': `V nastajanju ...`
+        'sl': `Mnogi pravijo, da je potrebno <i>slediti</i> svojemu srcu, čustvom in intuiciji. Pravijo tudi, da vsak zase ve, kaj je najbolje zanj. In da moramo nazaj v naravo, ter da ji je potrebno prisluhniti.
+        <br><br>
+        Adolf Hitler je sledil svojim sanjam, čustvom ter intuiciji (oz. svoji partikularni ideji) in k sreči so ga na njegovi srčni poti ustavili. Kapitalizem s propagando o npr. novem Iphonu naslavlja čustva in ne razum potrošnikov. Tudi kadilci, odvisniki od nekaterih drog, mesa in sladkorja se opírajo na omenjene klišeje. Telo jim vedno znova rojeva željo (in ne potrebo) po <i>še več istega</i>. Samomorilni, depresivni ali tesnobni ljudje, brez smisla, pristnosti, prijateljev, samopodobe, samospoštovanja, samozavesti, samozaupanja ali samozavedanja običajno nimajo druge možnosti, kot da se pustijo voditi nečemu v njih samih. Kot da je najboljša referenca o tem, kaj je za njih dobro, v njih že od nekdaj in da je nastala kar sama od sebe.
+        <br><br>
+        Živali so naravna bitja kot ujetnice sveta nagonov, čustev in občutkov. Pès zato ne more nikoli biti človekov prijatelj (v pravem pomenu besede), saj je za prijateljstvo (tako kot za ljubezen, ki ni seks) potrebno več kot le sledenje (zadevam v) sebi. Podrejen bo vodji krdela, pa če le-to vidi v drugem psu, človeku ali pa tjulnu. Pri tem nima izbire.
+        <br><br>
+        Ljudje smo bitja umetnih svetov, svetov idej, ki jih v odnosih z drugimi ljudmi ustvarjamo z uporabo jezika. Naša ideja o samemu sebi je neprestano odvisna od sočloveka. Smo simbolna bitja, kot pravi Jung. Votline v naravi smo že zdavnaj zapustili, čričkov pa tudi nima smisla poslušati v nedogled.
+        <br><br>
+        Idejam oz. vednosti se ljudje običajno upirajo oz. jo zavračajo, kot pravita Freud in Platon. Tudi ko že poznajo idejo oz. že imajo vednost, se upirajo, da bi s tem nekaj naredili. Praviloma poznajo idejo o globalnem segrevanju planeta (katero zadnja desetletja neprestano dokazuje na tisoče znanstvenikov), vendar se obnašajo, kot da se bo z vso to silno vednostjo nekega dne nekaj naredilo kar samo od sebe, npr. količina CO2 se bo zmanjšala sama od sebe, število zaklanih živali pa tudi. Človek celo v psihoanalizi pričakuje, kot da bo analitik nekaj naredil namesto njega. Ko ljudje iščejo razloge, da nečesa ne bi naredili, jih je praviloma strah. Oglasi se srce, ki pravi <i>uff, danes pa tega ne bi</i> ali pa <i>jejžešna, to pa ni udobno</i>. Sicer ne pravijo, da jih je strah, vendar pred drugimi in pred sabo poskušajo ustvariti vtis, kot da imajo razumske razloge, da neke ideje ne bi zastopali. Včasih se opírajo tudi na intuicijo ter ustvarjajo dogme, saj ne vedo, kaj intuicija (oz. nekaj <i>skrivnostnega</i>) sploh je.
+        <br><br>
+        Bistvena razlika med človekom in živaljo je ta, da je človek, kot subjekt, kot svobodno bitje, kot izjemno omejeno bitje iz mesa in krvi, sposoben slediti idejam, ki presegajo njegovo partikularnost. Človek se lahko usmeri v tisto smer, kamor hoče neka univerzalna ideja, ki ni njegova, in ne tja, kamor hoče on sam, npr. k profitu in udobju. <i>Kako?</i>
+        <br><br>
+        Človek lahko eno samo idejo nekega dne vzame zares in dovoli, da ideja oz. pot nekaj z njim naredi. Obstaja namreč neskončna razlika med tem, da človek nekaj o nečem ve in tem, da tisto živi oz. izvrši. Freud pravi, da to ni enostavno in da to nujno terja vsaj dvoje. 
+        Prvič, človek se mora nekaj novega naučiti. In drugič, nečemu se mora odpovedati (<i>nekaj [včasih nekdo, seveda v simbolnem smislu] mora umreti</i>).
+        <br><br>
+        Človekov um je največja ovira pri učenju o sebi, objektivni realnosti in sočloveku. Zato mora človek na neki točki, če želi še več vedeti o sebi, objektivni realnosti ali sočloveku, na svet (idej) pogledati skozi oči sočloveka. To npr. počne, ko se kot otrok ob učitelju uči o matematiki - ustvarja teoretske koncepte o npr. točki in premici, ki v fizičnem svetu ne obstajata. Človek ne more razumeti ničesar brez teoretskih konceptov. Da bi razumel svoj um, mora tudi ideje o sebi postaviti v odnos z idejami o sebi, ki prihajajo od sočloveka. Psihoanaliza je najboljša praksa za kaj takega. Ko človek tako dovolj časa misli, dobi občutek, da je realnost drugačna, kot je bila do sedaj. Obstaja namreč katarzičen trenutek, ko ve, kaj je njegovo poslanstvo in se enostavno lahko odloči, da bo neki univerzalni ideji <i>subjekt</i>. Postane svoboden v samoomejevanju. Postane odgovoren.`
     }
 };

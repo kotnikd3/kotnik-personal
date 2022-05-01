@@ -40,8 +40,8 @@
 						<h1 class="title">Denis Kotnik</h1>
 						<h2 class="subtitle" v-text="about[selectedLang]"></h2>
 						<p v-html="introduction[selectedLang]"></p>
-				 	</div>
-				 	<div class="column has-text-centered">
+					</div>
+					<div class="column has-text-centered">
 						<img src="./assets/denis_kotnik_2.jpeg" alt="Denis Kotnik">
 					</div>
 				</div>
