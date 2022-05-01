@@ -2,19 +2,15 @@
 // Bulma
 ///////////////////////////////////////
 // New variables
-$color-blue: #337ab7;
-$color-blue-black: #2c3e50;
+$color-red: #c23b3b;
+$color-blue-black: #1b597c;
 //Overriden variables
 $text: $color-blue-black;
 $title-color: $color-blue-black;
 $footer-background-color: white;
 $footer-padding: 24px;
-$link: $color-blue !default;
+$link: $color-red !default;
 $link-hover: $color-blue-black !default;
-
-.color-blue {
-    color: $color-blue;
-}
 
 .social-icons > span {
     margin-right: 10px;
