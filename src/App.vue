@@ -12,23 +12,6 @@
 							</div>
 						</div>
 					</div>
-					<!--
-					<div class="level-right">
-						<div class="level-item">
-							<div class="field has-addons">
-								<p class="control">
-									<button @click="toggleClass('sl')" :class="['button', { 'is-link' : selectedLang == 'sl' }]">SL</button>
-								</p>
-								<p class="control">
-									<button @click="toggleClass('en')" :class="['button', { 'is-link' : selectedLang == 'en' }]">EN</button>
-								</p>
-								<p class="control">
-									<button @click="toggleClass('nl')" :class="['button', { 'is-link' : selectedLang == 'nl' }]">NL</button>
-								</p>
-							</div>
-						</div>
-					</div>
-					-->
 				</div>
 			</div>
 		</section>
@@ -114,7 +97,7 @@
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="container has-text-centered">
-				<p class="has-text-grey">Denis Kotnik <font-awesome-icon :icon="['far', 'copyright']" flip="horizontal"/> 2022</p>
+				<p class="has-text-grey">Denis Kotnik <font-awesome-icon :icon="['far', 'copyright']" flip="horizontal"/> 2019–2022</p>
 			</div>
 		</footer>
 	</div>
@@ -130,11 +113,6 @@ export default {
 		return Object.assign({}, translations, {
 			selectedLang: 'sl',  // sl, en, nl
 		});
-	},
-	methods: {
-		toggleClass(lang) {
-			this.selectedLang = lang;
-		}
 	}
 }
 </script>
