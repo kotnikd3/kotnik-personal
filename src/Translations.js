@@ -5,12 +5,12 @@ export const translations = {
         'nl' : 'Over mij'
     },
     introduction : {
-        'sl' : 'Moje ime je Denis Kotnik, živim v Utrechtu na Nizozemskem, prihajam pa iz Slovenije. Po izobrazbi sem računalničar, vse bolj pa me zanimata tudi filozofija in psihoanaliza.<br><br>\
+        'sl' : 'Moje ime je Denis Kotnik, živim v mestu Leeuwarden na Nizozemskem, prihajam pa iz Slovenije. Po izobrazbi sem računalničar, vse bolj pa me zanimata tudi filozofija in psihoanaliza.<br><br>\
         Vem, da so čustva tista, ki človeku dajejo pogum, da zastopa določene ideje. Navdušuje me ideja razsvetljenstva ter ljudje, ki jo s svojim življenjem tudi živijo in ki iščejo samega sebe zato, da bi okrepili dober, pristni, avtentični odnos do drugega. Blizu so mi avtorji, kot so Sokrat, Karl Marx, Sigmund Freud, Alain Badiou, René Descartes in drugi.<br><br>\
         Tu bom poljudno parafraziral o nekaterih idejah. Niso moja last, namreč idej si ne more lastiti nihče. Sebe sem v dobrem pogovoru pripravljen postaviti pod vprašaj, zato bom zapisano dopolnjeval.<br><br>\
         Upam, da bo vse to le povabilo k razmišljanju.',
 
-        'en' : 'My name is Denis Kotnik, I live in the Netherlands and I come from Slovenia. I hold a master\'s degree in computer science and more and more I\'m interested in philosophy and psychology.<br><br>\
+        'en' : 'My name is Denis Kotnik, I live in the city of Leeuwarden in the Netherlands, and I come from Slovenia. I hold a master\'s degree in computer science and more and more I\'m interested in philosophy and psychology.<br><br>\
         I\'m fascinated by the idea of the Enlightenment and the people who represent it with their lives and who seek themselves precisely in order to strengthen a good, genuine, authentic relationship with another. I like to read the words of authors like Socrates, Karl Marx, Carl G. Jung, Sigmund Freud, Alain Badiou, René Descartes and others.<br><br>\
         I have introduced myself and in the future I would like to paraphrase about the ideas I came up with by reading and thinking. They are not my property, namely no one can own ideas. <i>Life</i> is another word for <i>change</i>, and in a good conversation I\'m ready to question myself, so I will supplement what is written over time, perhaps change it.<br><br>\
         I hope all of this will just be an invitation to think about the good.',
@@ -93,7 +93,7 @@ export const translations = {
     freeWill: {
         'sl': `Mnogi pravijo, da je potrebno <i>slediti</i> svojemu srcu, čustvom in intuiciji. Pravijo tudi, da vsak zase ve, kaj je najbolje zanj. In da moramo nazaj v naravo, ter da ji je potrebno prisluhniti.
         <br><br>
-        Adolf Hitler je sledil svojim sanjam, čustvom ter intuiciji (oz. svoji partikularni ideji) in k sreči so ga na njegovi srčni poti ustavili. Kapitalizem s propagando o npr. novem Iphonu naslavlja čustva in ne razum potrošnikov. Tudi kadilci, odvisniki od nekaterih drog, mesa in sladkorja se opírajo na omenjene klišeje. Telo jim vedno znova rojeva željo (in ne potrebo) po <i>še več istega</i>. Samomorilni, depresivni ali tesnobni ljudje, brez smisla, pristnosti, prijateljev, samopodobe, samospoštovanja, samozavesti, samozaupanja ali samozavedanja običajno nimajo druge možnosti, kot da se pustijo voditi nečemu v njih samih. Kot da je najboljša referenca o tem, kaj je za njih dobro, v njih že od nekdaj in da je nastala kar sama od sebe. Volja je namreč zelo hitro povezana z odvisnostjo in celo zasvojenostjo.
+        Adolf Hitler je sledil svojim sanjam, čustvom ter intuiciji (oz. svoji partikularni ideji) in k sreči so ga na njegovi srčni poti ustavili. Kapitalizem s propagando o npr. novem Iphonu naslavlja čustva in ne razum potrošnikov. Tudi kadilci, odvisniki od nekaterih drog, mesa in sladkorja se opírajo na omenjene klišeje. Telo jim vedno znova rojeva željo (in ne potrebo) po <i>še več istega</i>. Samomorilni, depresivni ali tesnobni ljudje, brez smisla, pristnosti, prijateljev, samopodobe, samospoštovanja, samozavesti, samozaupanja ali samozavedanja običajno nimajo druge možnosti, kot da se pustijo voditi nečemu v njih samih. Kot da je najboljša referenca o tem, kaj je za njih dobro, v njih že od nekdaj in da je nastala kar sama od sebe.
         <br><br>
         Živali so naravna bitja kot ujetnice sveta nagonov, čustev in občutkov. Pès zato ne more nikoli biti človekov prijatelj (v pravem pomenu besede), saj je za prijateljstvo (tako kot za ljubezen, ki ni seks) potrebno več kot le sledenje (zadevam v) sebi. Podrejen bo vodji krdela, pa če le-to vidi v drugem psu, človeku ali pa tjulnu. Pri tem nima izbire.
         <br><br>
