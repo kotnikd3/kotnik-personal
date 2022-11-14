@@ -5,7 +5,7 @@ export const translations = {
         'nl' : 'Over mij'
     },
     introduction : {
-        'sl' : `Moje ime je Denis Kotnik, živim v mestu Leeuwarden na Nizozemskem, prihajam pa iz Slovenije. Na Fakulteti za računalništvo in informatiko v Ljubljani sem magistriral s področja inkrementalnega strojnega učenja, sicer pa me zanimata filozofija in psihoanaliza. Želim si vedeti še več o različnih odnosih ljudi do realnosti, zato se na Inštitutu za psihodinamsko psihoterapijo v Ljubljani izobražujem za psihodinamskega psihoterapevta.
+        'sl' : `Moje ime je Denis Kotnik, živim v mestu Leeuwarden na Nizozemskem, prihajam pa iz Slovenije. Na Fakulteti za računalništvo in informatiko v Ljubljani sem magistriral s področja inkrementalnega strojnega učenja, sicer pa me zanimata filozofija in psihoanaliza. Želim si vedeti še več o različnih odnosih ljudi do širše realnosti, zato se na Inštitutu za psihodinamsko psihoterapijo v Ljubljani izobražujem za psihodinamskega psihoterapevta.
         <br><br>
         Vem, da so čustva tista, ki človeku dajejo pogum, da zastopa določene ideje. Navdušuje me ideja razsvetljenstva ter ljudje, ki jo s svojim življenjem tudi živijo in ki iščejo samega sebe zato, da bi okrepili dober, pristni, avtentični odnos do drugega. Blizu so mi avtorji, kot so Sokrat, Karl Marx, Sigmund Freud, Alain Badiou, René Descartes in drugi.
         <br><br>
