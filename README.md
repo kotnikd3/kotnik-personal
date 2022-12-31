@@ -17,13 +17,9 @@ npm run serve
 
 ### Compiles and minifies for production
 ```
-npm run build
-cp CNAME docs/
-# or
 ./build.sh
-
 ```
 
 ## Hosting
->- 2021: neoserv -> domovanje
 >- 2022: domovanje -> neoserv
+>- 2023: neoserv -> domovanje
