@@ -5,11 +5,9 @@ export const translations = {
     introduction : {
         'sl' : `Moje ime je Denis Kotnik, po izobrazbi sem računalničar, trenutno se izobražujem za psihodinamskega psihoterapevta, sicer pa me zanima tudi filozofija.
         <br><br>
-        Vem, da so čustva tista, ki človeku dajejo pogum, da zastopa določene ideje. Navdušuje me ideja razsvetljenstva ter ljudje, ki jo s svojim življenjem tudi živijo in ki iščejo samega sebe zato, da bi okrepili dober, pristni, avtentični odnos do drugega. Blizu so mi misleci, kot so Sokrat, Karl Marx, Sigmund Freud, Alain Badiou, René Descartes, Slavoj Žižek in drugi.
+        Vem, da so čustva tista, ki človeku dajejo pogum, da sledi idejam, zato sebe v dobrem pogovoru trudim postavljati pod vprašaj. Navdušuje me ideja razsvetljenstva ter ljudje, ki jo s svojim življenjem tudi živijo in ki iščejo samega sebe zato, da bi okrepili dober, pristni, avtentični odnos do drugega. Blizu so mi misleci, kot so Sokrat, Karl Marx, Sigmund Freud, Alain Badiou, René Descartes, Slavoj Žižek in drugi.
         <br><br>
-        Tu bom poljudno parafraziral o idejah, katerih si ne more lastiti nihče.
-        <br><br>
-        Sebe se v dobrem pogovoru trudim postavljati pod vprašaj, pišem pa zato, da vabim k razmišljanju.`
+        Pišem, da vabim k razmišljanju.`
     },
     opinions : {
         'sl' : `Ljudje že od vekomaj radi ponavljajo, da imajo pravico do izražanja mnenj. Slednje ne terja poglobljenega razmišljanja oz. energije in časa. Če vsak o neki stvari mimogrede izrazi mnenje, nastane v hipu ogromno mnenj. <i>Komu ta tiranija mnenj koristi? Kam pridemo s tem?</i>
