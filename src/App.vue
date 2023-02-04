@@ -34,7 +34,7 @@
 			<div class="container">
 				<h4 class="title is-4">Kazalo</h4>
 				<div class="content">
-					<ol>
+					<ul>
 						<li><a href="#opinions">O mnenjih in resnici</a></li>
 						<li><a href="#philosophy">O potrebi po filozofiji</a></li>
 						<li><a href="#capitalism">Filozof proti kapitalizmu</a></li>
@@ -42,7 +42,7 @@
 						<li><a href="#selfDevelopment">O delu na sebi</a></li>
 						<li><a href="#freeWill">O svobodni volji</a></li>
 						<li><a href="#transfer">O transferju</a></li>
-					</ol>
+					</ul>
 				</div>
 			</div>
 		</section>
