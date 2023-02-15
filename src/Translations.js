@@ -3,7 +3,7 @@ export const translations = {
         'sl' : 'O meni'
     },
     introduction : {
-        'sl' : `Moje ime je Denis Kotnik, po izobrazbi sem računalničar, trenutno se izobražujem za psihodinamskega psihoterapevta, sicer pa me zanima tudi filozofija.
+        'sl' : `Moje ime je Denis Kotnik, po izobrazbi sem računalničar, trenutno se izobražujem za psihodinamskega psihoterapevta, sicer pa me zanimata tudi teoretska psihoanaliza in filozofija.
         <br><br>
         Vem, da so čustva tista, ki človeku dajejo pogum, da sledi idejam, zato sebe v dobrem pogovoru trudim postavljati pod vprašaj. Navdušuje me ideja razsvetljenstva ter ljudje, ki jo s svojim življenjem tudi živijo in ki iščejo samega sebe zato, da bi okrepili dober, pristni, avtentični odnos do drugega. Blizu so mi misleci, kot so Sokrat, Karl Marx, Sigmund Freud, Alain Badiou, René Descartes, Slavoj Žižek in drugi.
         <br><br>
