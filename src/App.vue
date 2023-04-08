@@ -9,6 +9,7 @@
 							<div class="field has-addons social-icons">
 								<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Github"><a href="https://github.com/kotnikd3"><font-awesome-icon :icon="['fab', 'github']" size='3x'/></a></span>
 								<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Goodreads"><a href="https://www.goodreads.com/user/show/103410209-denis-kotnik"><font-awesome-icon :icon="['fab', 'goodreads']" size='3x'/></a></span>
+								<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="pesem.si"><a href="https://www.pesem.si/kotnik/pesmi/vse"><font-awesome-icon :icon="['fas', 'book-open-reader']" size='3x'/></a></span>
 							</div>
 						</div>
 					</div>
