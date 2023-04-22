@@ -43,6 +43,7 @@
 						<li><a href="#selfDevelopment">O delu na sebi</a></li>
 						<li><a href="#freeWill">O svobodni volji</a></li>
 						<li><a href="#transfer">O transferju</a></li>
+						<li><a href="#identity">O (ne)identiteti človeka</a></li>
 					</ul>
 				</div>
 			</div>
@@ -101,6 +102,13 @@
 			<div class="container">
 				<h4 class="title is-4">O transferju</h4>
 				<p v-html="transfer[selectedLang]"></p>
+			</div>
+		</section>
+		<!-- Identity -->
+		<section v-show="selectedLang == 'sl'" class="section" id="identity">
+			<div class="container">
+				<h4 class="title is-4">O (ne)identiteti človeka</h4>
+				<p v-html="identity[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Footer -->
