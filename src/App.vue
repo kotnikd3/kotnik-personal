@@ -36,27 +36,27 @@
 				<h4 class="title is-4">Kazalo</h4>
 				<div class="content">
 					<ul>
-						<li><a href="#opinions">O mnenjih in resnici</a></li>
-						<li><a href="#philosophy">O potrebi po filozofiji</a></li>
-						<li><a href="#capitalism">Filozof proti kapitalizmu</a></li>
-						<li><a href="#postmodernism">O postmodernizmu</a></li>
-						<li><a href="#selfDevelopment">O delu na sebi</a></li>
-						<li><a href="#freeWill">O svobodni volji</a></li>
+						<li><a href="#mnenja">O mnenjih in resnici</a></li>
+						<li><a href="#filozofija">O potrebi po filozofiji</a></li>
+						<li><a href="#kapitalizem">Filozof proti kapitalizmu</a></li>
+						<li><a href="#postmodernizem">O postmodernizmu</a></li>
+						<li><a href="#delo">O delu na sebi</a></li>
+						<li><a href="#svoboda">O svobodni volji</a></li>
 						<li><a href="#transfer">O transferju</a></li>
-						<li><a href="#identity">O (ne)identiteti človeka</a></li>
+						<li><a href="#identiteta">O (ne)identiteti človeka</a></li>
 					</ul>
 				</div>
 			</div>
 		</section>
 		<!-- Opinions -->
-		<section v-show="selectedLang == 'sl'" class="section" id="opinions">
+		<section v-show="selectedLang == 'sl'" class="section" id="mnenja">
 			<div class="container">
 				<h4 class="title is-4">O mnenjih in resnici</h4>
 				<p v-html="opinions[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Philosophy -->
-		<section v-show="selectedLang == 'sl'" class="section" id="philosophy">
+		<section v-show="selectedLang == 'sl'" class="section" id="filozofija">
 			<div class="container">
 				<h4 class="title is-4">O potrebi po filozofiji</h4>
 				<div class="columns">
@@ -70,28 +70,28 @@
 			</div>
 		</section>
 		<!-- Capitalism -->
-		<section v-show="selectedLang == 'sl'" class="section" id="capitalism">
+		<section v-show="selectedLang == 'sl'" class="section" id="kapitalizem">
 			<div class="container">
 				<h4 class="title is-4">Filozof proti kapitalizmu</h4>
 				<p v-html="capitalism[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Postmodernism -->
-		<section v-show="selectedLang == 'sl'" class="section" id="postmodernism">
+		<section v-show="selectedLang == 'sl'" class="section" id="postmodernizem">
 			<div class="container">
 				<h4 class="title is-4">O postmodernizmu</h4>
 				<p v-html="postmodernism[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Self development -->
-		<section v-show="selectedLang == 'sl'" class="section" id="selfDevelopment">
+		<section v-show="selectedLang == 'sl'" class="section" id="delo">
 			<div class="container">
 				<h4 class="title is-4">O delu na sebi</h4>
 				<p v-html="selfDevelopment[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Free will -->
-		<section v-show="selectedLang == 'sl'" class="section" id="freeWill">
+		<section v-show="selectedLang == 'sl'" class="section" id="svoboda">
 			<div class="container">
 				<h4 class="title is-4">O svobodni volji</h4>
 				<p v-html="freeWill[selectedLang]"></p>
@@ -105,7 +105,7 @@
 			</div>
 		</section>
 		<!-- Identity -->
-		<section v-show="selectedLang == 'sl'" class="section" id="identity">
+		<section v-show="selectedLang == 'sl'" class="section" id="identiteta">
 			<div class="container">
 				<h4 class="title is-4">O (ne)identiteti človeka</h4>
 				<p v-html="identity[selectedLang]"></p>
