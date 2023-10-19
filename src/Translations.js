@@ -125,5 +125,24 @@ export const translations = {
         </br></br>
         Vsi smo enaki tudi v odnosu do smrti - z njo se bo moral vsak soočiti popolnoma sam. Človek lahko obstaja le kot bitje negotovosti in verjetij, s tem pa je tudi bitje in subjekt nedoločljivosti in mnogo dimenzionalnosti sveta, zmožen ustvarjati smisel, pomen in simbolno identiteto. Slednja pomeni odpoved imaginarnim poskusom, da bi določil lastno identiteto in jo uveljavil v družbenem polju (na račun drugih). Pomeni vztrajanje v odprtosti, nesklenjenosti, travmatičnosti, nedoločljivosti (sveta in vsake mogoče identitete).
         `
+    },
+    other: {
+        'sl': `Pogosto lahko slišimo izjavo <i>"Vsak mora poskrbeti zase"</i>. Vse lepo in prav, ampak ni nujno, da je v skrbi zase karkoli etičnega.
+        </br></br>
+        Eden izmed svetov, ki ga lahko z uporabo domišljije izpeljemo iz omenjene izjave, je tekmovalen, osamljen, individualen, morda empatičen, vendar ne sočuten, brez koncepta skupnosti in ljubezni, ki ni narcistična (<i>skrb zase preko drugega</i>). Le zakaj bi bila skupnost (v nečem smo skupaj; v odnosu do nečesa smo vsi enaki) potrebna, če pa se ljudje, ki skrbijo le zase, obnašajo, kot da drug drugega ne potrebujejo, kot da skupnega imenovalca med njimi sploh ni, kot da ne živijo na istem planetu.
+        </br></br>
+        Če pomislimo, že brez da prej beremo teorije razvojne in self psihologije, hitro ugotovimo, da smo ljudje drug od drugega odvisni (odvisnost ni isto kot zasvojenost) in da si željo drugega želimo, zaradi česar vsakodnevno vstopamo v medsebojne odnose. Že potreba po skupnem jeziku (iz katerega po lacanovski psihoanalitični teoriji vznikne zavest) sloni na premisi, da se potrebujemo in da si želimo biti željeni. Potrebujemo priznanje/pripoznanje nas samih, to pa lahko ponudi le drugi človek. Sami smo drugi za druge ljudi, ki nas potrebujejo kot dobre poslušalce. Vsak človek namreč je trpel, trpi ali bo trpel.
+        </br></br>
+        Zakaj torej ne bi skrbeli drug za drugega? Česa se tako bojimo oz. zakaj je omenjea izjava le manifestacija strukturne travme?
+        </br></br>
+        Del človekovega psihičnega aparata je tudi ego, ki spontano verjame, da je on sam s svojimi partikularnimi željami v središču. Ne le, da ni v središču človeka, temveč je objekt okoli subjekta, ki je podrejen jeziku. Narava človekove svobode je namreč bistveno drugačna kot verjeme ego.
+        </br></br>
+        Ko se ljudje pogovarjajo na določen način, se lahko malce bolj zavejo, da je v vseh njih nekaj <i>istega</i>. Ego se malo bolj zave, da ni v središču, da se ne more zaobjeti v celoti in pojasniti brez ostanka. Ljudje lahko izkusijo tudi pogled na to isto z drugačne perspektive. Zaradi odnosa do tega univerzalnega se lahko ljudje tudi zastopijo, začutijo, lahko se postavijo v čevlje drugega, na to isto in na svet lahko pogledajo z očmi drugega, <i>drugače</i>. 
+        </br>
+        Ker je subjekt razcepljen oz. ker je človek simbolno bitje, lahko na to isto vedno znova pogleda na drugačen način. Obstaja namreč (npr. psihoanalitična) izkušnja, zaradi katere lahko človek, s pomočjo drugega, sam nase pogleda z drugačne perspektive. Lahko spozna, da je tudi sam sebi tujec, namreč sebe pozna le do določene mere. Torej je tudi sam sebi Drugi, do katerega lahko vzpostavlja odnos in distanco. Do tega Drugega, tako kot do drugega, pa ima človek vedno etično dolžnost samopreseganja, pa tudi če bi bil na svetu sam, kot pravi Emmanuel Levinas. Odgovorni smo najprej Drugemu, ki je tujec v nas samih. Brez tega ni odgovornosti.
+        </br></br>
+        Obstaja <i>skrb za drugega preko sebe</i>. Za drugega lahko poskrbimo tako, da bomo zaradi te iste skrbi imeli korist tudi sami, saj istočasno skrbimo za Drugega. Dajemo kot končna bitja in lahko damo tudi nekaj, kar nas presega, kar pa le doda k ideji dobrega, ki bo (v nezavednem) odmevala v večnosti.
+        </br></br>
+        <i>"Vsak mora poskrbeti zase zato, da lahko poskrbi za Drugega (v njih samih in v drugem)."</i>`
     }
 };

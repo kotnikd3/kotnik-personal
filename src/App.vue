@@ -44,6 +44,7 @@
 						<li><a href="#svoboda">O svobodni volji</a></li>
 						<li><a href="#transfer">O transferju</a></li>
 						<li><a href="#identiteta">O (ne)identiteti človeka</a></li>
+						<li><a href="#drugi">O odgovornosti do Drugega</a></li>
 					</ul>
 				</div>
 			</div>
@@ -109,6 +110,13 @@
 			<div class="container">
 				<h4 class="title is-4">O (ne)identiteti človeka</h4>
 				<p v-html="identity[selectedLang]"></p>
+			</div>
+		</section>
+		<!-- Other -->
+		<section v-show="selectedLang == 'sl'" class="section" id="drugi">
+			<div class="container">
+				<h4 class="title is-4">O odgovornosti do Drugega</h4>
+				<p v-html="other[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Footer -->
