@@ -45,6 +45,7 @@
 						<li><a href="#transfer">O transferju</a></li>
 						<li><a href="#identiteta">O (ne)identiteti človeka</a></li>
 						<li><a href="#drugi">O odgovornosti do Drugega</a></li>
+						<li><a href="#narcisizem">O narcisizmu</a></li>
 					</ul>
 				</div>
 			</div>
@@ -117,6 +118,13 @@
 			<div class="container">
 				<h4 class="title is-4">O odgovornosti do Drugega</h4>
 				<p v-html="other[selectedLang]"></p>
+			</div>
+		</section>
+		<!-- Narcissism -->
+		<section v-show="selectedLang == 'sl'" class="section" id="narcisizem">
+			<div class="container">
+				<h4 class="title is-4">O narcisizmu</h4>
+				<p v-html="narcissism[selectedLang]"></p>
 			</div>
 		</section>
 		<!-- Footer -->
