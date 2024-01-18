@@ -30,5 +30,5 @@ npm run serve
 ```
 
 ## Hosting
->- 2022: domovanje -> neoserv
 >- 2023: neoserv -> domovanje
+>- 2024: domovanje -> neoserv
