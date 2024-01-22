@@ -29,6 +29,9 @@ npm run serve
 ./build.sh
 ```
 
-## Hosting
->- 2023: neoserv -> domovanje
->- 2024: domovanje -> neoserv
+## Domain hosting
+>- 2023: https://neoserv.si/ -> domovanje
+>- 2024: domovanje -> https://neoserv.si/
+
+## DNS hosting:
+>- https://www.freedns.si
