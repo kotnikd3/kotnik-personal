@@ -9,7 +9,7 @@
                         <p v-html="introduction[selectedLang]"></p>
                     </div>
                     <div class="column has-text-centered">
-                        <img src="./assets/denis_kotnik.jpg" alt="Denis Kotnik" />
+                        <img src="./assets/denis_kotnik.webp" alt="Denis Kotnik" />
                     </div>
                 </div>
             </div>
