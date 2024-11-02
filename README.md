@@ -1,23 +1,20 @@
-# kotnikd3.github.io
+# www.kotnik.si
 
-This template should help get you started developing with Vue 3 in Vite.
+## About the project
+My personal web page build with Vue.js 3 and Bulma.  
+Free to use.
 
-## Recommended IDE Setup
+## Update npm
+```
+npm install -g npm@latest
+```
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+## Project setup
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
+### Compiles and hot-reloads for development
 ```sh
 npm run dev
 ```
@@ -28,8 +25,20 @@ npm run dev
 npm run build
 ```
 
+### Deploy
+```sh
+npm run deploy
+```
+
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
 ```
+
+## Domain hosting
+>- 2023: https://neoserv.si/ -> domovanje
+>- 2024: domovanje -> https://neoserv.si/
+
+## DNS hosting:
+>- https://www.freedns.si
