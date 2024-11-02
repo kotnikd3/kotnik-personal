@@ -4,9 +4,24 @@
 My personal web page build with Vue.js 3 and Bulma.  
 Free to use.
 
+## Update node on MacOS
+```
+brew update
+```
+
 ## Update npm
 ```
 npm install -g npm@latest
+```
+
+## Update packages
+```sh
+# Check for updates
+ncu
+# Update packages by modifying package.json
+ncu -u
+# Install new packages
+npm install
 ```
 
 ## Project setup

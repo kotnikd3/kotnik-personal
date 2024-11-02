@@ -43,14 +43,6 @@ $color-blue-black: #1b597c;
 
 
 ///////////////////////////////////////
-// Custom CSS
-///////////////////////////////////////
-img {
-    width: 80%;
-    border-radius: 2%;
-}
-
-///////////////////////////////////////
 // Google fonts
 ///////////////////////////////////////
 @font-face {
@@ -58,6 +50,15 @@ img {
     src: url('./fonts/VarelaRound-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+
+///////////////////////////////////////
+// Custom CSS
+///////////////////////////////////////
+img {
+    width: 80%;
+    border-radius: 2%;
 }
 
 body {
