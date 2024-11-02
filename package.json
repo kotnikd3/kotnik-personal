@@ -1,6 +1,6 @@
 {
   "name": "kotnikd3.github.io",
-  "homepage": "https://github.com/kotnikd3/kotnikd3.github.io",
+  "homepage": "https://kotnikd3.github.io/kotnikd3.github.io/",
   "version": "3.0.0",
   "description": "My personal website",
   "author": "Denis Kotnik",
@@ -20,7 +20,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
+    "deploy" : "vite build && cp CNAME dist/CNAME && gh-pages -d dist",
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
