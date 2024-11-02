@@ -1,9 +1,10 @@
 {
   "name": "kotnikd3.github.io",
+  "homepage": "https://github.com/kotnikd3/kotnikd3.github.io",
   "version": "3.0.0",
   "description": "My personal website",
   "author": "Denis Kotnik",
-  "license": "copyleft",
+  "license": "copyright",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kotnikd3/kotnikd3.github.io.git"
@@ -16,29 +17,32 @@
     "denis kotnik"
   ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
+    "preview": "vite preview",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
   },
   "dependencies": {
-    "@creativebulma/bulma-tooltip": "^1.2.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-regular-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
-    "@fortawesome/vue-fontawesome": "^3.0.2",
-    "bulma": "^0.9.4",
-    "vue": "^3.0.0"
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "bulma": "^1.0.2",
+    "vue": "^3.5.12"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~5.0.0-beta.2",
-    "@vue/cli-service": "^5.0.8",
-    "@vue/compiler-sfc": "^3.0.4",
-    "sass": "^1.57.1",
-    "sass-loader": "^12.6.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "@eslint/js": "^9.13.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/eslint-config-prettier": "^10.0.0",
+    "eslint": "^9.13.0",
+    "eslint-plugin-vue": "^9.29.0",
+    "gh-pages": "^6.2.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.80.5",
+    "sass-loader": "^16.0.3",
+    "vite": "^5.4.10",
+    "vite-plugin-vue-devtools": "^7.5.3"
+  }
 }
