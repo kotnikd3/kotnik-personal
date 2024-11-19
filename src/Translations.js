@@ -3,7 +3,7 @@ export const translations = {
     sl: 'O meni',
   },
   introduction: {
-    sl: `Moje ime je Denis Kotnik, magistriral sem na Fakulteti za računalništvo in informatiko na Univerzi v Ljubljani s področja umetne inteligence, trenutno se izobražujem za psihodinamskega psihoterapevta, zanimata pa tudi psihoanaliza in filozofija.
+    sl: `Moje ime je Denis Kotnik, magistriral sem na Fakulteti za računalništvo in informatiko na Univerzi v Ljubljani s področja umetne inteligence, trenutno se izobražujem za psihodinamskega psihoterapevta, zanimata pa me tudi psihoanaliza in filozofija.
         <br><br>
         Blizu so mi misleci, kot so Sokrat, René Descartes, Karl Marx, Sigmund Freud, Jacques Lacan, Michel Foucault, Alain Badiou in drugi.`,
   },
