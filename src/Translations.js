@@ -3,9 +3,9 @@ export const translations = {
     sl: 'O meni',
   },
   introduction: {
-    sl: `Moje ime je Denis Kotnik, magistriral sem na Fakulteti za računalništvo in informatiko na Univerzi v Ljubljani s področja umetne inteligence, trenutno se izobražujem za psihodinamskega psihoterapevta, zanimata pa me tudi psihoanaliza in filozofija.
-        <br><br>
-        Blizu so mi misleci, kot so Sokrat, René Descartes, Karl Marx, Sigmund Freud, Jacques Lacan, Michel Foucault, Alain Badiou in drugi.`,
+    sl: `Moje ime je Denis Kotnik, magistriral sem s področja umetne inteligence na Fakulteti za računalništvo in informatiko Univerze v Ljubljani, trenutno se izobražujem za psihodinamskega psihoterapevta, zanimata pa me tudi psihoanaliza in filozofija.
+    <br><br>
+    Blizu so mi misleci, kot so Sokrat, René Descartes, Karl Marx, Sigmund Freud, Jacques Lacan, Alain Badiou in drugi.`,
   },
   opinions: {
     sl: `Ljudje že od vekomaj radi ponavljajo, da imajo pravico do izražanja mnenj. Slednje ne terja poglobljenega razmišljanja oz. energije in časa. Če vsak o neki stvari mimogrede izrazi mnenje, nastane v hipu ogromno mnenj. <i>Komu ta tiranija mnenj koristi? Kam pridemo s tem?</i>
