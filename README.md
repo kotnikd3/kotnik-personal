@@ -52,8 +52,8 @@ npm run lint
 ```
 
 ## Domain hosting
->- 2023: https://neoserv.si/ -> domovanje
 >- 2024: domovanje -> https://neoserv.si/
+>- 2025: neoserv -> domovanje
 
 ## DNS hosting:
 >- https://www.freedns.si
