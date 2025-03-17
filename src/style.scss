@@ -22,6 +22,11 @@ $color-blue-black: #1b597c;
 @use "bulma/sass/elements/title" with (
     $title-color: $color-blue-black
 );
+@use "bulma/sass/elements/button" with(
+    $button-ghost-background: $color-blue-black,
+    $button-ghost-color: white,
+    $button-ghost-hover-color: white,
+);
 @use "bulma/sass/elements/icon";
 
 // Grid

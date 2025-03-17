@@ -30,7 +30,8 @@
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "bulma": "^1.0.3",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue-i18n": "^11.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.18.0",
