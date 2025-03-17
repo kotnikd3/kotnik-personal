@@ -40,10 +40,6 @@ npm run dev
 npm run build
 ```
 
-### Deploy
-```sh
-npm run deploy
-```
 
 ### Lint with [ESLint](https://eslint.org/)
 
@@ -51,9 +47,9 @@ npm run deploy
 npm run lint
 ```
 
+## Website/DNS hosting
+Cloudflare Pages
+
 ## Domain hosting
 >- 2024: domovanje -> https://neoserv.si/
 >- 2025: neoserv -> domovanje
-
-## DNS hosting:
->- https://www.freedns.si
