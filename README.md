@@ -47,9 +47,8 @@ npm run build
 npm run lint
 ```
 
-## Website/DNS hosting
-Cloudflare Pages
-
-## Domain hosting
->- 2024: domovanje -> https://neoserv.si/
->- 2025: neoserv -> domovanje
+## Hosting
+- **Domain registrar**: Domovanje (where the domain is registered)
+- **Email hosting provider**: Neoserv (where email services are hosted)
+- **DNS provider**: Cloudflare (handles DNS records and routing)
+- **Static website hosting provider**: Cloudflare Pages (hosts the static website)
