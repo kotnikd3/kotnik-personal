@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: "/kotnikd3.github.io/",
+    // base: "/kotnikd3.github.io/",
     plugins: [
         vue(),
         vueDevTools(),
