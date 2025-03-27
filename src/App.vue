@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h4 class="title is-4" v-text="t('about')"></h4>
+                        <h1 class="title is-4" v-text="t('about')"></h1>
                         <p v-html="t('introduction')"></p>
                     </div>
                     <div class="column has-text-centered">
