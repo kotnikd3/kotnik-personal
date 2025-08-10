@@ -2,7 +2,6 @@
   "name": "kotnikd3.github.io",
   "homepage": "https://kotnik.si",
   "version": "1.0.0",
-  "type": "module",
   "description": "My personal website",
   "author": "Denis Kotnik",
   "license": "copyright",
@@ -45,5 +44,8 @@
     "vite": "^7.1.1",
     "vite-plugin-vue-devtools": "^8.0.0",
     "vue-eslint-parser": "^10.2.0"
-  }
+  },
+    "engines": {
+        "node": ">=20"
+    }
 }
