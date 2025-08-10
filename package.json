@@ -2,6 +2,7 @@
   "name": "kotnikd3.github.io",
   "homepage": "https://kotnik.si",
   "version": "1.0.0",
+  "type": "module",
   "description": "My personal website",
   "author": "Denis Kotnik",
   "license": "copyright",
