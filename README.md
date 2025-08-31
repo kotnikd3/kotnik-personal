@@ -1,4 +1,5 @@
 # www.kotnik.si
+A Vue.js personal website.
 
 ## About the project
 My personal web page build with Vue.js 3 and Bulma.  
