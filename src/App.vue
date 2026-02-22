@@ -8,8 +8,11 @@
                     <button @click="selectedLang = 'en'" :class="['button', { 'is-ghost': selectedLang === 'en' }]">EN</button>
                 </div>
                 <div class="is-left">
-                    <a href="https://github.com/kotnikd3" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/kotnikd3" target="_blank" rel="noopener noreferrer" style="margin-right: 20px;">
                         <font-awesome-icon :icon="['fab', 'github']" size='3x'/>
+                    </a>
+                    <a :href="selectedLang === 'sl' ? 'https://www.psihoterapija-kotnik.si/' : 'https://www.psychotherapy-kotnik.com/'" target="_blank" rel="noopener noreferrer">
+                        <font-awesome-icon :icon="['fa', 'couch']" size='3x'/>
                     </a>
                 </div>
             </div>

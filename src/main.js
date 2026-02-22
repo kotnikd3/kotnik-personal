@@ -5,8 +5,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
+import { faCouch } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faCopyright, faGithub)
+library.add(faCopyright, faGithub, faCouch)
 
 import { createApp } from 'vue'
 import App from './App.vue'
