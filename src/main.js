@@ -3,9 +3,10 @@ import '@/style.scss'
 // FontAwesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 
-library.add(faCopyright)
+library.add(faCopyright, faGithub)
 
 import { createApp } from 'vue'
 import App from './App.vue'

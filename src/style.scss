@@ -12,6 +12,7 @@ $color-blue-black: #1b597c;
 // Override global Sass variables from the /utilities folder
 @use "bulma/sass/utilities" with (
     $text: $color-blue-black,
+    $link: $color-blue-black
 );
 
 // Load Bulma's base styles and themes (including the minireset)
@@ -68,4 +69,19 @@ img {
 
 body {
     font-family: 'Varela Round', sans-serif;
+}
+
+.is-golden-main {
+    flex: 0 0 61.8%;
+}
+
+.is-golden-side {
+    flex: 0 0 38.2%;
+}
+
+@media (max-width: 768px) {
+    .is-golden-main,
+    .is-golden-side {
+        flex: 0 0 100%;
+    }
 }

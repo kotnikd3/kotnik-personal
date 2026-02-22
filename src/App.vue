@@ -2,20 +2,27 @@
     <div>
         <!-- Tabs: language buttons -->
          <div class="section">
-            <div class="buttons has-addons is-right">
-                <button @click="selectedLang = 'sl'" :class="['button', { 'is-ghost': selectedLang === 'sl' }]">SL</button>
-                <button @click="selectedLang = 'en'" :class="['button', { 'is-ghost': selectedLang === 'en' }]">EN</button>
+            <div class="container">
+                <div class="buttons has-addons is-right">
+                    <button @click="selectedLang = 'sl'" :class="['button', { 'is-ghost': selectedLang === 'sl' }]">SL</button>
+                    <button @click="selectedLang = 'en'" :class="['button', { 'is-ghost': selectedLang === 'en' }]">EN</button>
+                </div>
+                <div class="is-left">
+                    <a href="https://github.com/kotnikd3" target="_blank" rel="noopener noreferrer">
+                        <font-awesome-icon :icon="['fab', 'github']" size='3x'/>
+                    </a>
+                </div>
             </div>
         </div>
         <!-- Introduction -->
         <section class="section">
             <div class="container">
                 <div class="columns">
-                    <div class="column">
+                    <div class="column is-golden-main">
                         <h1 class="title is-4" v-text="t('about')"></h1>
                         <p v-html="t('introduction')"></p>
                     </div>
-                    <div class="column has-text-centered">
+                    <div class="column is-golden-side has-text-centered">
                         <img src="./assets/denis_kotnik.webp" alt="Denis Kotnik" />
                     </div>
                 </div>
@@ -24,7 +31,7 @@
         <!-- Footer -->
         <footer class="footer">
             <div class="container has-text-centered">
-                <p class="has-text-grey">Denis Kotnik <font-awesome-icon icon="fa-regular fa-copyright" /> 2025</p>
+                <p class="has-text-grey">Denis Kotnik <font-awesome-icon icon="fa-regular fa-copyright" /> 2026</p>
             </div>
         </footer>
     </div>
