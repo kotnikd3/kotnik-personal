@@ -47,8 +47,3 @@ npm run build
 ```sh
 npm run lint
 ```
-
-## Hosting
-- **Domain registrar**: Domovanje (where the domain is registered)
-- **DNS provider**: Cloudflare (handles DNS records and routing)
-- **Static website hosting provider**: Cloudflare Pages (hosts the static website)
