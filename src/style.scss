@@ -41,6 +41,7 @@ $color-blue-black: #1b597c;
 
 // Layout
 @use "bulma/sass/layout/section";
+@use "bulma/sass/layout/level";
 @use "bulma/sass/layout/footer" with (
     $footer-padding: 40px,
     $footer-background-color: white
