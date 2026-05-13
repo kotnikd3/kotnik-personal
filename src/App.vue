@@ -39,7 +39,7 @@
                         <p v-html="t('introduction')"></p>
                     </div>
                     <div class="column is-golden-side has-text-centered">
-                        <img src="./assets/denis_kotnik.webp" alt="Denis Kotnik" />
+                        <img src="./assets/denis_kotnik.webp" alt="Denis Kotnik" style="width: 70%;"/>
                     </div>
                 </div>
             </div>
