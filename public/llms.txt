@@ -1,0 +1,15 @@
+# Denis Kotnik
+
+> Personal website of Denis Kotnik.
+
+This website provides an introduction to Denis Kotnik and links to his work, projects, and online presence.
+
+## Main page
+
+- [Denis Kotnik](https://kotnik.si/): Personal homepage and overview.
+
+## Additional resources
+
+- [Sitemap](https://kotnik.si/sitemap.xml): List of public pages on this website.
+
+For the most current information, refer to the website itself and the resources linked from it.
