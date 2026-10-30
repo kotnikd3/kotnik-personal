@@ -14,6 +14,15 @@ export default [
   },
 
   js.configs.recommended,
+  {
+    files: ['src/main.js'],
+    languageOptions: {
+      globals: {
+        document: 'readonly',
+        window: 'readonly',
+      },
+    },
+  },
   ...pluginVue.configs['flat/essential'],
   skipFormatting,
 ]

@@ -5,6 +5,10 @@
   "description": "My personal website",
   "author": "Denis Kotnik",
   "license": "copyright",
+  "type": "module",
+  "engines": {
+    "node": "^22.18.0 || >=24.11.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kotnikd3/kotnikd3.github.io.git"
@@ -35,6 +39,8 @@
     "vue-i18n": "^11.4.14"
   },
   "devDependencies": {
+    "@vue/server-renderer": "3.5.44",
+    "vite-prerender-plugin": "^0.5.14",
     "@eslint/js": "^10.0.1",
     "@vitejs/plugin-vue": "^6.0.10",
     "@vue/eslint-config-prettier": "^10.2.0",

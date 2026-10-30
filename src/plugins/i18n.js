@@ -1,17 +1,21 @@
-import { createI18n } from 'vue-i18n';
-import en from '@/locales/en.json';
-import sl from '@/locales/sl.json';
+import { createI18n } from 'vue-i18n'
+import en from '@/locales/en.json'
+import sl from '@/locales/sl.json'
 
-const i18n = createI18n({
-	locale: 'sl', //languageStore.locale,
-  	fallbackLocale: 'sl', // Fallback locale
-  	messages: {
-		en,
-		sl,
-  	},
+export function getLocale(pathname) {
+  return pathname === '/en/' || pathname === '/en' ? 'en' : 'sl'
+}
+
+export default function createAppI18n(locale = 'sl') {
+  return createI18n({
+    locale,
+    fallbackLocale: 'sl',
+    messages: {
+      en,
+      sl,
+    },
     allowComposition: true,
     legacy: false,
     warnHtmlMessage: false,
-});
-
-export default i18n;
+  })
+}

@@ -22,8 +22,8 @@
                     <div class="level-right">
                         <div class="level-item">
                             <div class="buttons has-addons is-right">
-                                <button @click="selectedLang = 'sl'" :class="['button', { 'is-ghost': selectedLang === 'sl' }]">SL</button>
-                                <button @click="selectedLang = 'en'" :class="['button', { 'is-ghost': selectedLang === 'en' }]">EN</button>
+                                <a href="/" hreflang="sl" lang="sl" :aria-current="locale === 'sl' ? 'page' : undefined" aria-label="Sloven&#353;&#269;ina" :class="['button', { 'is-ghost': locale === 'sl' }]">SL</a>
+                                <a href="/en/" hreflang="en" lang="en" :aria-current="locale === 'en' ? 'page' : undefined" aria-label="English" :class="['button', { 'is-ghost': locale === 'en' }]">EN</a>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,8 @@
             <div class="container">
                 <div class="columns is-vcentered">
                     <div class="column is-golden-main">
-                        <h1 class="title is-4" v-text="t('about')"></h1>
+                        <h1 class="title is-4">Denis Kotnik</h1>
+                        <h2 class="title is-5" v-text="t('about')"></h2>
                         <p v-html="t('introduction')"></p>
                     </div>
                     <div class="column is-golden-side has-text-centered">
@@ -63,13 +64,8 @@ export default {
         return { t, locale }
     },
     computed: {
-        selectedLang: {
-            get() {
-                return this.locale;
-            },
-            set(lang) {
-                this.locale = lang;
-            }
+        selectedLang() {
+            return this.locale;
         }
     }
 }
